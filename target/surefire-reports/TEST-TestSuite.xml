@@ -1,0 +1,2352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="5.355" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/avinashmaurya/eclipse-workspace/MSILPartsKartRestAssuredAPIAutomation/target/test-classes:/Users/avinashmaurya/eclipse-workspace/MSILPartsKartRestAssuredAPIAutomation/target/classes:/Users/avinashmaurya/.m2/repository/io/rest-assured/rest-assured/4.4.0/rest-assured-4.4.0.jar:/Users/avinashmaurya/.m2/repository/org/codehaus/groovy/groovy/3.0.8/groovy-3.0.8.jar:/Users/avinashmaurya/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.8/groovy-xml-3.0.8.jar:/Users/avinashmaurya/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/avinashmaurya/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/avinashmaurya/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/avinashmaurya/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/avinashmaurya/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/avinashmaurya/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/avinashmaurya/.m2/repository/io/rest-assured/json-path/4.4.0/json-path-4.4.0.jar:/Users/avinashmaurya/.m2/repository/org/codehaus/groovy/groovy-json/3.0.8/groovy-json-3.0.8.jar:/Users/avinashmaurya/.m2/repository/io/rest-assured/rest-assured-common/4.4.0/rest-assured-common-4.4.0.jar:/Users/avinashmaurya/.m2/repository/io/rest-assured/xml-path/4.4.0/xml-path-4.4.0.jar:/Users/avinashmaurya/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/avinashmaurya/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/avinashmaurya/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/avinashmaurya/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/Users/avinashmaurya/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/avinashmaurya/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/avinashmaurya/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.0/jackson-databind-2.13.0.jar:/Users/avinashmaurya/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.0/jackson-annotations-2.13.0.jar:/Users/avinashmaurya/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.0/jackson-core-2.13.0.jar:/Users/avinashmaurya/.m2/repository/io/rest-assured/json-schema-validator/4.4.0/json-schema-validator-4.4.0.jar:/Users/avinashmaurya/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/avinashmaurya/.m2/repository/com/google/guava/guava/28.2-android/guava-28.2-android.jar:/Users/avinashmaurya/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/avinashmaurya/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/avinashmaurya/.m2/repository/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar:/Users/avinashmaurya/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/Users/avinashmaurya/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/avinashmaurya/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/avinashmaurya/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/avinashmaurya/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/avinashmaurya/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/avinashmaurya/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/avinashmaurya/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/avinashmaurya/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/avinashmaurya/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/avinashmaurya/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/avinashmaurya/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/avinashmaurya/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/avinashmaurya/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/avinashmaurya/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/avinashmaurya/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/avinashmaurya/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/avinashmaurya/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/avinashmaurya/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/avinashmaurya/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/avinashmaurya/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/avinashmaurya/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/avinashmaurya/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/avinashmaurya/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/avinashmaurya/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/avinashmaurya/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/avinashmaurya/.m2/repository/org/zeroturnaround/zt-zip/1.14/zt-zip-1.14.jar:/Users/avinashmaurya/.m2/repository/org/slf4j/slf4j-api/1.6.6/slf4j-api-1.6.6.jar:/Users/avinashmaurya/.m2/repository/com/sun/mail/javax.mail/1.6.2/javax.mail-1.6.2.jar:/Users/avinashmaurya/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/Users/avinashmaurya/.m2/repository/org/apache/poi/poi-ooxml/5.2.4/poi-ooxml-5.2.4.jar:/Users/avinashmaurya/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.4/poi-ooxml-lite-5.2.4.jar:/Users/avinashmaurya/.m2/repository/org/apache/xmlbeans/xmlbeans/5.1.1/xmlbeans-5.1.1.jar:/Users/avinashmaurya/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/Users/avinashmaurya/.m2/repository/org/apache/commons/commons-compress/1.24.0/commons-compress-1.24.0.jar:/Users/avinashmaurya/.m2/repository/com/github/virtuald/curvesapi/1.08/curvesapi-1.08.jar:/Users/avinashmaurya/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/avinashmaurya/.m2/repository/org/apache/poi/poi/5.2.4/poi-5.2.4.jar:/Users/avinashmaurya/.m2/repository/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar:/Users/avinashmaurya/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/avinashmaurya/.m2/repository/com/zaxxer/SparseBitSet/1.3/SparseBitSet-1.3.jar:/Users/avinashmaurya/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:/Users/avinashmaurya/.m2/repository/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/avinashmaurya/eclipse-workspace/MSILPartsKartRestAssuredAPIAutomation/target/surefire/surefirebooter-20231006141346681_3.jar /Users/avinashmaurya/eclipse-workspace/MSILPartsKartRestAssuredAPIAutomation/target/surefire 2023-10-06T14-13-46_411-jvmRun1 surefire-20231006141346681_1tmp surefire_0-20231006141346681_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/avinashmaurya/eclipse-workspace/MSILPartsKartRestAssuredAPIAutomation/target/test-classes:/Users/avinashmaurya/eclipse-workspace/MSILPartsKartRestAssuredAPIAutomation/target/classes:/Users/avinashmaurya/.m2/repository/io/rest-assured/rest-assured/4.4.0/rest-assured-4.4.0.jar:/Users/avinashmaurya/.m2/repository/org/codehaus/groovy/groovy/3.0.8/groovy-3.0.8.jar:/Users/avinashmaurya/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.8/groovy-xml-3.0.8.jar:/Users/avinashmaurya/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/avinashmaurya/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/avinashmaurya/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/avinashmaurya/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/avinashmaurya/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/avinashmaurya/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/avinashmaurya/.m2/repository/io/rest-assured/json-path/4.4.0/json-path-4.4.0.jar:/Users/avinashmaurya/.m2/repository/org/codehaus/groovy/groovy-json/3.0.8/groovy-json-3.0.8.jar:/Users/avinashmaurya/.m2/repository/io/rest-assured/rest-assured-common/4.4.0/rest-assured-common-4.4.0.jar:/Users/avinashmaurya/.m2/repository/io/rest-assured/xml-path/4.4.0/xml-path-4.4.0.jar:/Users/avinashmaurya/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/avinashmaurya/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/avinashmaurya/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/avinashmaurya/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/Users/avinashmaurya/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/avinashmaurya/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/avinashmaurya/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.0/jackson-databind-2.13.0.jar:/Users/avinashmaurya/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.0/jackson-annotations-2.13.0.jar:/Users/avinashmaurya/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.0/jackson-core-2.13.0.jar:/Users/avinashmaurya/.m2/repository/io/rest-assured/json-schema-validator/4.4.0/json-schema-validator-4.4.0.jar:/Users/avinashmaurya/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/avinashmaurya/.m2/repository/com/google/guava/guava/28.2-android/guava-28.2-android.jar:/Users/avinashmaurya/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/avinashmaurya/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/avinashmaurya/.m2/repository/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar:/Users/avinashmaurya/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/Users/avinashmaurya/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/avinashmaurya/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/avinashmaurya/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/avinashmaurya/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/avinashmaurya/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/avinashmaurya/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/avinashmaurya/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/avinashmaurya/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/avinashmaurya/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/avinashmaurya/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/avinashmaurya/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/avinashmaurya/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/avinashmaurya/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/avinashmaurya/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/avinashmaurya/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/avinashmaurya/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/avinashmaurya/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/avinashmaurya/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/avinashmaurya/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/avinashmaurya/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/avinashmaurya/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/avinashmaurya/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/avinashmaurya/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/avinashmaurya/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/avinashmaurya/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/avinashmaurya/.m2/repository/org/zeroturnaround/zt-zip/1.14/zt-zip-1.14.jar:/Users/avinashmaurya/.m2/repository/org/slf4j/slf4j-api/1.6.6/slf4j-api-1.6.6.jar:/Users/avinashmaurya/.m2/repository/com/sun/mail/javax.mail/1.6.2/javax.mail-1.6.2.jar:/Users/avinashmaurya/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/Users/avinashmaurya/.m2/repository/org/apache/poi/poi-ooxml/5.2.4/poi-ooxml-5.2.4.jar:/Users/avinashmaurya/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.4/poi-ooxml-lite-5.2.4.jar:/Users/avinashmaurya/.m2/repository/org/apache/xmlbeans/xmlbeans/5.1.1/xmlbeans-5.1.1.jar:/Users/avinashmaurya/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/Users/avinashmaurya/.m2/repository/org/apache/commons/commons-compress/1.24.0/commons-compress-1.24.0.jar:/Users/avinashmaurya/.m2/repository/com/github/virtuald/curvesapi/1.08/curvesapi-1.08.jar:/Users/avinashmaurya/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/avinashmaurya/.m2/repository/org/apache/poi/poi/5.2.4/poi-5.2.4.jar:/Users/avinashmaurya/.m2/repository/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar:/Users/avinashmaurya/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/avinashmaurya/.m2/repository/com/zaxxer/SparseBitSet/1.3/SparseBitSet-1.3.jar:/Users/avinashmaurya/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:/Users/avinashmaurya/.m2/repository/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/avinashmaurya"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/avinashmaurya/eclipse-workspace/MSILPartsKartRestAssuredAPIAutomation"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/avinashmaurya/eclipse-workspace/MSILPartsKartRestAssuredAPIAutomation/target/surefire/surefirebooter-20231006141346681_3.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_211-b12"/>
+    <property name="user.name" value="avinashmaurya"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.16"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/avinashmaurya/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/xw/2545213n6db2wwyh1x7gbtnw0000gp/T/"/>
+    <property name="java.version" value="1.8.0_211"/>
+    <property name="user.dir" value="/Users/avinashmaurya/eclipse-workspace/MSILPartsKartRestAssuredAPIAutomation"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/avinashmaurya/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.211-b12"/>
+    <property name="java.ext.dirs" value="/Users/avinashmaurya/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="Verify" classname="api.test.CategoryTreeTest" time="2.589">
+    <system-out><![CDATA[Test-Report-1899.12.31.00.00.00.html
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 30959
+Connection: keep-alive
+Date: Fri, 06 Oct 2023 08:43:50 GMT
+X-XSS-Protection: 1; mode=block
+Content-Security-Policy: default-src 'self' blob:; img-src 'self' blob:; script-src 'unsafe-eval' 'unsafe-inline' 'self' https://cf.msilcrm.co.in/* https://*.msilcrm.co.in/ https://crm-dev-static-website.s3.ap-south-1.amazonaws.com/uniagentDialerFunc.js;  font-src 'self' blob:; style-src 'self' 'unsafe-inline'; frame-src *; connect-src 'self' https://cf.msilcrm.co.in/ https://*.msilcrm.co.in/ https://*.cloudfront.net https://*.amazonaws.com https://www.preprod.marutisuzukisubscribe.com https://*.amazoncognito.com https://*.cf.marutisuzukisubscribe.com https://*.msilcrm.co.in https://msilcrm.co.in; blob:
+x-amzn-Remapped-Connection: keep-alive
+x-amz-apigw-id: MXxO_GloBcwFnrw=
+Cache-Control: nocache
+X-Content-Type-Options: nosniff
+x-amzn-Remapped-Date: Fri, 06 Oct 2023 08:43:50 GMT
+Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+X-Frame-Options: DENY
+Referrer-Policy: same-origin
+Server: Unspecified
+x-amzn-RequestId: 2b351697-1ed2-4615-866b-7bed4dcdb41d
+Vary: Origin
+X-Cache: Miss from cloudfront
+Via: 1.1 ec542c5e836fd455a11da607f04cc228.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BOM54-P2
+X-Amz-Cf-Id: FnaGG_DQ9eYWPqiWluwXpl7NKOd7NjAgL5wDgl852XsTZLDmUlFJjg==
+
+{
+    "error": false,
+    "errors": null,
+    "data": [
+        {
+            "categoryDetailList": null,
+            "PARENT_CATG_CODE": "P_ACC",
+            "PARENT_CATG_DESC": "Accessories"
+        },
+        {
+            "categoryDetailList": [
+                {
+                    "CATG_DESC": "AC Blower & Comp.",
+                    "CATG_CODE": "W_ACB",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "AC Blower",
+                            "SUBCATG_CODE": "ACBLW"
+                        },
+                        {
+                            "SUBCATG_DESC": "AC Blower Components",
+                            "SUBCATG_CODE": "ACBLC"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "AC Components",
+                    "CATG_CODE": "W_ACS",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "AC Belt Tensioner",
+                            "SUBCATG_CODE": "ACCBT"
+                        },
+                        {
+                            "SUBCATG_DESC": "AC Kit",
+                            "SUBCATG_CODE": "ACKIT"
+                        },
+                        {
+                            "SUBCATG_DESC": "AC Sensors & Components",
+                            "SUBCATG_CODE": "ACSEC"
+                        },
+                        {
+                            "SUBCATG_DESC": "AC Shroud",
+                            "SUBCATG_CODE": "ACSHR"
+                        },
+                        {
+                            "SUBCATG_DESC": "Control Unit",
+                            "SUBCATG_CODE": "ACCNT"
+                        },
+                        {
+                            "SUBCATG_DESC": "Cooling Unit",
+                            "SUBCATG_CODE": "ACCCU"
+                        },
+                        {
+                            "SUBCATG_DESC": "Cooling Unit-Rear",
+                            "SUBCATG_CODE": "ACCUR"
+                        },
+                        {
+                            "SUBCATG_DESC": "Discharge Hose",
+                            "SUBCATG_CODE": "ACCDH"
+                        },
+                        {
+                            "SUBCATG_DESC": "Expansion Valve",
+                            "SUBCATG_CODE": "ACCEV"
+                        },
+                        {
+                            "SUBCATG_DESC": "Fan Assembly",
+                            "SUBCATG_CODE": "ACCFA"
+                        },
+                        {
+                            "SUBCATG_DESC": "Liquid Pipe",
+                            "SUBCATG_CODE": "ACCLP"
+                        },
+                        {
+                            "SUBCATG_DESC": "Magnetic Clutch",
+                            "SUBCATG_CODE": "ACMAG"
+                        },
+                        {
+                            "SUBCATG_DESC": "Resistor",
+                            "SUBCATG_CODE": "ACCRT"
+                        },
+                        {
+                            "SUBCATG_DESC": "Side Vent",
+                            "SUBCATG_CODE": "ACCSV"
+                        },
+                        {
+                            "SUBCATG_DESC": "Suction Hose",
+                            "SUBCATG_CODE": "ACCSH"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "AC Compressor",
+                    "CATG_CODE": "W_ACP",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "AC Belt",
+                            "SUBCATG_CODE": "ACBEL"
+                        },
+                        {
+                            "SUBCATG_DESC": "Compressor Assembly",
+                            "SUBCATG_CODE": "ACCMP"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "AC Condensor Assembly",
+                    "CATG_CODE": "W_ACO",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "CONDENSOR ASSEMBLY",
+                            "SUBCATG_CODE": "ACCON"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "AC Evaporator",
+                    "CATG_CODE": "W_ACT",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Evaporator",
+                            "SUBCATG_CODE": "ACEVA"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "AC Heater Unit",
+                    "CATG_CODE": "W_ACU",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Heater Core",
+                            "SUBCATG_CODE": "ACCHC"
+                        },
+                        {
+                            "SUBCATG_DESC": "Heater Unit",
+                            "SUBCATG_CODE": "ACCHU"
+                        }
+                    ]
+                }
+            ],
+            "PARENT_CATG_CODE": "P_ACG",
+            "PARENT_CATG_DESC": "Air Conditioning"
+        },
+        {
+            "categoryDetailList": [
+                {
+                    "CATG_DESC": "Body - Others",
+                    "CATG_CODE": "W_BDS",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Apron - Member Panel",
+                            "SUBCATG_CODE": "PAAPR"
+                        },
+                        {
+                            "SUBCATG_DESC": "Carpets",
+                            "SUBCATG_CODE": "CAPET"
+                        },
+                        {
+                            "SUBCATG_DESC": "Cowl -Member, Panel, Garnish",
+                            "SUBCATG_CODE": "COMPG"
+                        },
+                        {
+                            "SUBCATG_DESC": "Cut Panels",
+                            "SUBCATG_CODE": "CUTPA"
+                        },
+                        {
+                            "SUBCATG_DESC": "Dash Panel",
+                            "SUBCATG_CODE": "DAPAN"
+                        },
+                        {
+                            "SUBCATG_DESC": "Engine Cover",
+                            "SUBCATG_CODE": "ENCOV"
+                        },
+                        {
+                            "SUBCATG_DESC": "Floor Panel & Chasis",
+                            "SUBCATG_CODE": "FLPAM"
+                        },
+                        {
+                            "SUBCATG_DESC": "Fuel Tank Cap",
+                            "SUBCATG_CODE": "BFTCA"
+                        },
+                        {
+                            "SUBCATG_DESC": "Glove Box Parts",
+                            "SUBCATG_CODE": "GLBXP"
+                        },
+                        {
+                            "SUBCATG_DESC": "Hinges",
+                            "SUBCATG_CODE": "HINGE"
+                        },
+                        {
+                            "SUBCATG_DESC": "Hood Release Cable",
+                            "SUBCATG_CODE": "HORCA"
+                        },
+                        {
+                            "SUBCATG_DESC": "Instrument Panel",
+                            "SUBCATG_CODE": "INPAN"
+                        },
+                        {
+                            "SUBCATG_DESC": "Lamp Support",
+                            "SUBCATG_CODE": "PALAS"
+                        },
+                        {
+                            "SUBCATG_DESC": "Mud Flap",
+                            "SUBCATG_CODE": "MUFLA"
+                        },
+                        {
+                            "SUBCATG_DESC": "Panel - Wheel House",
+                            "SUBCATG_CODE": "PAWHO"
+                        },
+                        {
+                            "SUBCATG_DESC": "Roof Lining, Molding",
+                            "SUBCATG_CODE": "ROLMR"
+                        },
+                        {
+                            "SUBCATG_DESC": "Sash Component",
+                            "SUBCATG_CODE": "SASHC"
+                        },
+                        {
+                            "SUBCATG_DESC": "Steering Support Member",
+                            "SUBCATG_CODE": "STSUM"
+                        },
+                        {
+                            "SUBCATG_DESC": "Sunroof Components",
+                            "SUBCATG_CODE": "SNRFC"
+                        },
+                        {
+                            "SUBCATG_DESC": "Trims",
+                            "SUBCATG_CODE": "TRIMS"
+                        },
+                        {
+                            "SUBCATG_DESC": "Vents - Louver",
+                            "SUBCATG_CODE": "VELOU"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "Body Components",
+                    "CATG_CODE": "W_BDO",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Auto AC Panel",
+                            "SUBCATG_CODE": "BYACP"
+                        },
+                        {
+                            "SUBCATG_DESC": "Battery Bolt",
+                            "SUBCATG_CODE": "BDBOL"
+                        },
+                        {
+                            "SUBCATG_DESC": "Battery Tray & Cover",
+                            "SUBCATG_CODE": "BDBAT"
+                        },
+                        {
+                            "SUBCATG_DESC": "Body Part - Miscellaneous",
+                            "SUBCATG_CODE": "BDYMS"
+                        },
+                        {
+                            "SUBCATG_DESC": "Door Components",
+                            "SUBCATG_CODE": "DRCMP"
+                        },
+                        {
+                            "SUBCATG_DESC": "Door Knob",
+                            "SUBCATG_CODE": "BDDRK"
+                        },
+                        {
+                            "SUBCATG_DESC": "Front Bumper Cap",
+                            "SUBCATG_CODE": "BUMCP"
+                        },
+                        {
+                            "SUBCATG_DESC": "Garnishing ",
+                            "SUBCATG_CODE": "GARBF"
+                        },
+                        {
+                            "SUBCATG_DESC": "Glass Run",
+                            "SUBCATG_CODE": "BDYGR"
+                        },
+                        {
+                            "SUBCATG_DESC": "Outside Front Door Handle",
+                            "SUBCATG_CODE": "OFDRH"
+                        },
+                        {
+                            "SUBCATG_DESC": "Pad",
+                            "SUBCATG_CODE": "BDYPA"
+                        },
+                        {
+                            "SUBCATG_DESC": "Side Body Panels",
+                            "SUBCATG_CODE": "SBPLH"
+                        },
+                        {
+                            "SUBCATG_DESC": "Weatherstrip",
+                            "SUBCATG_CODE": "BDYWT"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "Body Exteriors",
+                    "CATG_CODE": "W_BDE",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Back Banel",
+                            "SUBCATG_CODE": "BDEBP"
+                        },
+                        {
+                            "SUBCATG_DESC": "Body Exterior - Components",
+                            "SUBCATG_CODE": "BDYEC"
+                        },
+                        {
+                            "SUBCATG_DESC": "Body Panel - Bonnet",
+                            "SUBCATG_CODE": "BDPBT"
+                        },
+                        {
+                            "SUBCATG_DESC": "Body Panel - Dicky Door",
+                            "SUBCATG_CODE": "BDPDD"
+                        },
+                        {
+                            "SUBCATG_DESC": "Body Panel - Fenders",
+                            "SUBCATG_CODE": "BDPFR"
+                        },
+                        {
+                            "SUBCATG_DESC": "Body Panel - Front Doors",
+                            "SUBCATG_CODE": "BDFDR"
+                        },
+                        {
+                            "SUBCATG_DESC": "Body Panel - Rear Doors",
+                            "SUBCATG_CODE": "BDRDR"
+                        },
+                        {
+                            "SUBCATG_DESC": "Body Panel - Roof",
+                            "SUBCATG_CODE": "BDPRO"
+                        },
+                        {
+                            "SUBCATG_DESC": "BODYSHELL",
+                            "SUBCATG_CODE": "BDYSL"
+                        },
+                        {
+                            "SUBCATG_DESC": "Cross Memebr",
+                            "SUBCATG_CODE": "BDYCM"
+                        },
+                        {
+                            "SUBCATG_DESC": "Door Tape",
+                            "SUBCATG_CODE": "DOTAP"
+                        },
+                        {
+                            "SUBCATG_DESC": "Emblems",
+                            "SUBCATG_CODE": "BDEMB"
+                        },
+                        {
+                            "SUBCATG_DESC": "Fender Linings",
+                            "SUBCATG_CODE": "FENLL"
+                        },
+                        {
+                            "SUBCATG_DESC": "Quarter Panels",
+                            "SUBCATG_CODE": "QTRPL"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "Body Interiors",
+                    "CATG_CODE": "W_BDI",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Body Interior - Components",
+                            "SUBCATG_CODE": "BINTC"
+                        },
+                        {
+                            "SUBCATG_DESC": "Body Interiors - Covers",
+                            "SUBCATG_CODE": "BDICO"
+                        },
+                        {
+                            "SUBCATG_DESC": "Front Door Latch",
+                            "SUBCATG_CODE": "LAFDR"
+                        },
+                        {
+                            "SUBCATG_DESC": "Fuel Tank",
+                            "SUBCATG_CODE": "BDFUT"
+                        },
+                        {
+                            "SUBCATG_DESC": "Glass Machine - Front Door",
+                            "SUBCATG_CODE": "GMFDR"
+                        },
+                        {
+                            "SUBCATG_DESC": "Glass Machine - Rear Door",
+                            "SUBCATG_CODE": "GMRDR"
+                        },
+                        {
+                            "SUBCATG_DESC": "Latch -Trunk Lid_Back Door",
+                            "SUBCATG_CODE": "LATBD"
+                        },
+                        {
+                            "SUBCATG_DESC": "Rear Door Latch",
+                            "SUBCATG_CODE": "LARDR"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "Bumpers & Grilles",
+                    "CATG_CODE": "W_BUM",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Bumper Grille",
+                            "SUBCATG_CODE": "BUMGR"
+                        },
+                        {
+                            "SUBCATG_DESC": "Bumper Member",
+                            "SUBCATG_CODE": "BUMME"
+                        },
+                        {
+                            "SUBCATG_DESC": "Bumper Others",
+                            "SUBCATG_CODE": "BUMOT"
+                        },
+                        {
+                            "SUBCATG_DESC": "Fog Lamp Bezel",
+                            "SUBCATG_CODE": "FOGLB"
+                        },
+                        {
+                            "SUBCATG_DESC": "Front Bumper",
+                            "SUBCATG_CODE": "BUMFR"
+                        },
+                        {
+                            "SUBCATG_DESC": "Front Bumper Holders",
+                            "SUBCATG_CODE": "FBBRR"
+                        },
+                        {
+                            "SUBCATG_DESC": "Rear Bumper",
+                            "SUBCATG_CODE": "BUMRR"
+                        },
+                        {
+                            "SUBCATG_DESC": "Rear Bumper Holders",
+                            "SUBCATG_CODE": "RBBRR"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "Glass & Windshield",
+                    "CATG_CODE": "W_GLA",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Front Windshield",
+                            "SUBCATG_CODE": "GLFRW"
+                        },
+                        {
+                            "SUBCATG_DESC": "Rear Glass",
+                            "SUBCATG_CODE": "GLDRR"
+                        },
+                        {
+                            "SUBCATG_DESC": "Side Door Glass",
+                            "SUBCATG_CODE": "GLQDR"
+                        },
+                        {
+                            "SUBCATG_DESC": "Windshield Molding",
+                            "SUBCATG_CODE": "GLAWM"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "Mirrors",
+                    "CATG_CODE": "W_RVM",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Inside Rear View Mirror ",
+                            "SUBCATG_CODE": "RVMIN"
+                        },
+                        {
+                            "SUBCATG_DESC": "Rear View Mirror Components",
+                            "SUBCATG_CODE": "RVMCP"
+                        },
+                        {
+                            "SUBCATG_DESC": "Rear View Mirrors",
+                            "SUBCATG_CODE": "RVMER"
+                        },
+                        {
+                            "SUBCATG_DESC": "Sun Visor",
+                            "SUBCATG_CODE": "SUVIS"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "Safety",
+                    "CATG_CODE": "W_SAF",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Air Bag Module",
+                            "SUBCATG_CODE": "ABMCP"
+                        },
+                        {
+                            "SUBCATG_DESC": "Front Seat Belts",
+                            "SUBCATG_CODE": "SBFRL"
+                        },
+                        {
+                            "SUBCATG_DESC": "Rear Seat Belts",
+                            "SUBCATG_CODE": "SBREA"
+                        },
+                        {
+                            "SUBCATG_DESC": "Seat Belt (w/o Buckle) - Fr.Left",
+                            "SUBCATG_CODE": "SBWOL"
+                        }
+                    ]
+                }
+            ],
+            "PARENT_CATG_CODE": "P_BDY",
+            "PARENT_CATG_DESC": "Body"
+        },
+        {
+            "categoryDetailList": [
+                {
+                    "CATG_DESC": "Car Wash",
+                    "CATG_CODE": "W_CWS",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Dry Wash Liquid Foam",
+                            "SUBCATG_CODE": "CNDWF"
+                        },
+                        {
+                            "SUBCATG_DESC": "Fiber Cloth",
+                            "SUBCATG_CODE": "CNFBC"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "Coolant & Brake fluid",
+                    "CATG_CODE": "W_FLU",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Brake Fluid",
+                            "SUBCATG_CODE": "BRKFL"
+                        },
+                        {
+                            "SUBCATG_DESC": "Coolant",
+                            "SUBCATG_CODE": "COLRP"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "Corrosion Protection",
+                    "CATG_CODE": "W_CCP",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Butyl Sealing",
+                            "SUBCATG_CODE": "CNBUS"
+                        },
+                        {
+                            "SUBCATG_DESC": "Hinge Relief Wax",
+                            "SUBCATG_CODE": "CNHRW"
+                        },
+                        {
+                            "SUBCATG_DESC": "Rust Smash",
+                            "SUBCATG_CODE": "CNRUS"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "Grease & Oil",
+                    "CATG_CODE": "W_CGC",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "AT & CVD Fluid",
+                            "SUBCATG_CODE": "CATVT"
+                        },
+                        {
+                            "SUBCATG_DESC": "Compressor Oil",
+                            "SUBCATG_CODE": "CNCPO"
+                        },
+                        {
+                            "SUBCATG_DESC": "Gear Oil",
+                            "SUBCATG_CODE": "GEARO"
+                        },
+                        {
+                            "SUBCATG_DESC": "Grease For Repair",
+                            "SUBCATG_CODE": "CNGRE"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "Hardware",
+                    "CATG_CODE": "W_CHD",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Bearings",
+                            "SUBCATG_CODE": "HDBRG"
+                        },
+                        {
+                            "SUBCATG_DESC": "Bolts & Screws",
+                            "SUBCATG_CODE": "CNHDB"
+                        },
+                        {
+                            "SUBCATG_DESC": "Circlip",
+                            "SUBCATG_CODE": "CIRCL"
+                        },
+                        {
+                            "SUBCATG_DESC": "Clamps",
+                            "SUBCATG_CODE": "CNHDC"
+                        },
+                        {
+                            "SUBCATG_DESC": "Clips",
+                            "SUBCATG_CODE": "CNHDI"
+                        },
+                        {
+                            "SUBCATG_DESC": "Hardware - Others",
+                            "SUBCATG_CODE": "HAROT"
+                        },
+                        {
+                            "SUBCATG_DESC": "Nuts",
+                            "SUBCATG_CODE": "CNHDN"
+                        },
+                        {
+                            "SUBCATG_DESC": "O Rings",
+                            "SUBCATG_CODE": "HDORI"
+                        },
+                        {
+                            "SUBCATG_DESC": "Seals",
+                            "SUBCATG_CODE": "TCHDS"
+                        },
+                        {
+                            "SUBCATG_DESC": "Washer",
+                            "SUBCATG_CODE": "WASHE"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "Hygiene Mats",
+                    "CATG_CODE": "W_CPF",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Paper Floor Mat",
+                            "SUBCATG_CODE": "CNPFM"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "Interior Covers",
+                    "CATG_CODE": "W_CIP",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Interior Protection Covers",
+                            "SUBCATG_CODE": "CNIPC"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "Masking Products",
+                    "CATG_CODE": "W_CMP",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Body Filler",
+                            "SUBCATG_CODE": "CNBDF"
+                        },
+                        {
+                            "SUBCATG_DESC": "Masking Paper",
+                            "SUBCATG_CODE": "CNMAP"
+                        },
+                        {
+                            "SUBCATG_DESC": "Masking Tape",
+                            "SUBCATG_CODE": "CNMAT"
+                        },
+                        {
+                            "SUBCATG_DESC": "Over Protective Sheet",
+                            "SUBCATG_CODE": "CNOPS"
+                        },
+                        {
+                            "SUBCATG_DESC": "Putty Paste",
+                            "SUBCATG_CODE": "CNPUT"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "Sealants & Paste",
+                    "CATG_CODE": "W_CSP",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "3M Bond",
+                            "SUBCATG_CODE": "CNTMB"
+                        },
+                        {
+                            "SUBCATG_DESC": "Anabond",
+                            "SUBCATG_CODE": "CNANA"
+                        },
+                        {
+                            "SUBCATG_DESC": "Body Sealant",
+                            "SUBCATG_CODE": "CNBDS"
+                        },
+                        {
+                            "SUBCATG_DESC": "Loctite",
+                            "SUBCATG_CODE": "CNLOC"
+                        },
+                        {
+                            "SUBCATG_DESC": "Windshield Sealant",
+                            "SUBCATG_CODE": "CNWSL"
+                        }
+                    ]
+                }
+            ],
+            "PARENT_CATG_CODE": "P_CCC",
+            "PARENT_CATG_DESC": "Car Care"
+        },
+        {
+            "categoryDetailList": [
+                {
+                    "CATG_DESC": "Car Dicky Tools",
+                    "CATG_CODE": "W_CDT",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Car Jack ",
+                            "SUBCATG_CODE": "JAKAC"
+                        },
+                        {
+                            "SUBCATG_DESC": "Spare Tire Components",
+                            "SUBCATG_CODE": "SPTIR"
+                        }
+                    ]
+                }
+            ],
+            "PARENT_CATG_CODE": "P_DIY",
+            "PARENT_CATG_DESC": "Do It Yourself"
+        },
+        {
+            "categoryDetailList": [
+                {
+                    "CATG_DESC": "Alternator & Starter",
+                    "CATG_CODE": "W_EAS",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Alternator Assembly",
+                            "SUBCATG_CODE": "ALTAS"
+                        },
+                        {
+                            "SUBCATG_DESC": "Belt - Generator",
+                            "SUBCATG_CODE": "BELTA"
+                        },
+                        {
+                            "SUBCATG_DESC": "Generator Bracket",
+                            "SUBCATG_CODE": "AGEBR"
+                        },
+                        {
+                            "SUBCATG_DESC": "Starter Assembly",
+                            "SUBCATG_CODE": "STRTA"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "Audio & Navigation System",
+                    "CATG_CODE": "W_ECA",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Antenna Components",
+                            "SUBCATG_CODE": "ANTEC"
+                        },
+                        {
+                            "SUBCATG_DESC": "Front & Rear Camera",
+                            "SUBCATG_CODE": "RRCAM"
+                        },
+                        {
+                            "SUBCATG_DESC": "Navigation Chip",
+                            "SUBCATG_CODE": "NAVIC"
+                        },
+                        {
+                            "SUBCATG_DESC": "Navigation Unit Assembly",
+                            "SUBCATG_CODE": "NAVUA"
+                        },
+                        {
+                            "SUBCATG_DESC": "Speaker Assembly",
+                            "SUBCATG_CODE": "SPEAK"
+                        },
+                        {
+                            "SUBCATG_DESC": "Tuner Assembly",
+                            "SUBCATG_CODE": "TUNRA"
+                        },
+                        {
+                            "SUBCATG_DESC": "Usb & Aux",
+                            "SUBCATG_CODE": "USBAU"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "Electrical Components",
+                    "CATG_CODE": "W_EEC",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Battery Band",
+                            "SUBCATG_CODE": "BATBA"
+                        },
+                        {
+                            "SUBCATG_DESC": "Battery Pack assy",
+                            "SUBCATG_CODE": "BATPA"
+                        },
+                        {
+                            "SUBCATG_DESC": "Electrical Hardware",
+                            "SUBCATG_CODE": "ELHRD"
+                        },
+                        {
+                            "SUBCATG_DESC": "Fuses",
+                            "SUBCATG_CODE": "ELFUS"
+                        },
+                        {
+                            "SUBCATG_DESC": "Junction Box Assembly",
+                            "SUBCATG_CODE": "ELJBO"
+                        },
+                        {
+                            "SUBCATG_DESC": "Remote Control Assembly",
+                            "SUBCATG_CODE": "RECOA"
+                        },
+                        {
+                            "SUBCATG_DESC": "Siren",
+                            "SUBCATG_CODE": "ELSIR"
+                        },
+                        {
+                            "SUBCATG_DESC": "Speedometer",
+                            "SUBCATG_CODE": "ELSPM"
+                        },
+                        {
+                            "SUBCATG_DESC": "Terminals",
+                            "SUBCATG_CODE": "ELTER"
+                        },
+                        {
+                            "SUBCATG_DESC": "Wireless Charger",
+                            "SUBCATG_CODE": "WIREC"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "Horns & Relay",
+                    "CATG_CODE": "W_EHR",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Horns",
+                            "SUBCATG_CODE": "ELHOR"
+                        },
+                        {
+                            "SUBCATG_DESC": "Relay",
+                            "SUBCATG_CODE": "ELREL"
+                        },
+                        {
+                            "SUBCATG_DESC": "Relay Box Cover",
+                            "SUBCATG_CODE": "REBOX"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "Ignition Components",
+                    "CATG_CODE": "W_EIC",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Distributor Assy",
+                            "SUBCATG_CODE": "IGDIA"
+                        },
+                        {
+                            "SUBCATG_DESC": "Glow Plug Controller",
+                            "SUBCATG_CODE": "IGGPC"
+                        },
+                        {
+                            "SUBCATG_DESC": "Ignition Coil",
+                            "SUBCATG_CODE": "IGNCO"
+                        },
+                        {
+                            "SUBCATG_DESC": "Ignition Cord Set",
+                            "SUBCATG_CODE": "IGNCH"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "Lighting",
+                    "CATG_CODE": "W_ELL",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Bulb - Fog & Head lamp",
+                            "SUBCATG_CODE": "BULFH"
+                        },
+                        {
+                            "SUBCATG_DESC": "Bulb - Fog lamp",
+                            "SUBCATG_CODE": "BULFG"
+                        },
+                        {
+                            "SUBCATG_DESC": "Bulb - Front lamp",
+                            "SUBCATG_CODE": "BULFL"
+                        },
+                        {
+                            "SUBCATG_DESC": "Bulb - Indicator",
+                            "SUBCATG_CODE": "BULIN"
+                        },
+                        {
+                            "SUBCATG_DESC": "Bulb - Reverse lamp",
+                            "SUBCATG_CODE": "BULRL"
+                        },
+                        {
+                            "SUBCATG_DESC": "Bulb - Roof lamp",
+                            "SUBCATG_CODE": "BULUL"
+                        },
+                        {
+                            "SUBCATG_DESC": "Bulb - Tail light",
+                            "SUBCATG_CODE": "BULTL"
+                        },
+                        {
+                            "SUBCATG_DESC": "Bulb- Head Lamp",
+                            "SUBCATG_CODE": "BULHL"
+                        },
+                        {
+                            "SUBCATG_DESC": "Fog Lamp Assembly",
+                            "SUBCATG_CODE": "FOGLA"
+                        },
+                        {
+                            "SUBCATG_DESC": "Front Indicators",
+                            "SUBCATG_CODE": "FINDR"
+                        },
+                        {
+                            "SUBCATG_DESC": "Head Lamps",
+                            "SUBCATG_CODE": "HLLAL"
+                        },
+                        {
+                            "SUBCATG_DESC": "Interior Lighting",
+                            "SUBCATG_CODE": "LIINT"
+                        },
+                        {
+                            "SUBCATG_DESC": "License Lamp",
+                            "SUBCATG_CODE": "LILAM"
+                        },
+                        {
+                            "SUBCATG_DESC": "Lighting Components",
+                            "SUBCATG_CODE": "LICMP"
+                        },
+                        {
+                            "SUBCATG_DESC": "Side Lamp Assy",
+                            "SUBCATG_CODE": "SLAMA"
+                        },
+                        {
+                            "SUBCATG_DESC": "Stop Lamp",
+                            "SUBCATG_CODE": "STPLA"
+                        },
+                        {
+                            "SUBCATG_DESC": "Tail Lamps",
+                            "SUBCATG_CODE": "TALAL"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "Lock Set",
+                    "CATG_CODE": "W_ELO",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "IGNITION KEY",
+                            "SUBCATG_CODE": "KEYIG"
+                        },
+                        {
+                            "SUBCATG_DESC": "Lock Set - Steering",
+                            "SUBCATG_CODE": "LOKST"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "Sensors & Switches",
+                    "CATG_CODE": "W_ESW",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Cam Sensor",
+                            "SUBCATG_CODE": "SENCA"
+                        },
+                        {
+                            "SUBCATG_DESC": "Clutch Speed Sensor",
+                            "SUBCATG_CODE": "CLSPS"
+                        },
+                        {
+                            "SUBCATG_DESC": "Combination Switch",
+                            "SUBCATG_CODE": "CMBSA"
+                        },
+                        {
+                            "SUBCATG_DESC": "Door Switch",
+                            "SUBCATG_CODE": "SWADR"
+                        },
+                        {
+                            "SUBCATG_DESC": "Forward Sensor",
+                            "SUBCATG_CODE": "SENFS"
+                        },
+                        {
+                            "SUBCATG_DESC": "Fuel Sensor",
+                            "SUBCATG_CODE": "SENFG"
+                        },
+                        {
+                            "SUBCATG_DESC": "Light Switch",
+                            "SUBCATG_CODE": "SWALT"
+                        },
+                        {
+                            "SUBCATG_DESC": "Mirror Switch",
+                            "SUBCATG_CODE": "SWAMR"
+                        },
+                        {
+                            "SUBCATG_DESC": "Parking & Brake Sensor",
+                            "SUBCATG_CODE": "SENPS"
+                        },
+                        {
+                            "SUBCATG_DESC": "Power Window Switch",
+                            "SUBCATG_CODE": "SWAPW"
+                        },
+                        {
+                            "SUBCATG_DESC": "Rain & Light Sensor",
+                            "SUBCATG_CODE": "SENRL"
+                        },
+                        {
+                            "SUBCATG_DESC": "Speed Sensor",
+                            "SUBCATG_CODE": "SENSP"
+                        },
+                        {
+                            "SUBCATG_DESC": "Switch Assy - Clutch",
+                            "SUBCATG_CODE": "SWCLU"
+                        },
+                        {
+                            "SUBCATG_DESC": "Switch Assy - Drive",
+                            "SUBCATG_CODE": "SDRIV"
+                        },
+                        {
+                            "SUBCATG_DESC": "Switch Assy - Engine Start",
+                            "SUBCATG_CODE": "SWAES"
+                        },
+                        {
+                            "SUBCATG_DESC": "Switch Assy - Fuel Control",
+                            "SUBCATG_CODE": "SWFCO"
+                        },
+                        {
+                            "SUBCATG_DESC": "Switch Assy - Oil Pressure",
+                            "SUBCATG_CODE": "SWOPS"
+                        },
+                        {
+                            "SUBCATG_DESC": "Transmitter Switch",
+                            "SUBCATG_CODE": "SWATR"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "Wipers & Components",
+                    "CATG_CODE": "W_EWI",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Front Wiper Blades",
+                            "SUBCATG_CODE": "WIPFR"
+                        },
+                        {
+                            "SUBCATG_DESC": "Rear Wiper Blade",
+                            "SUBCATG_CODE": "WIPRR"
+                        },
+                        {
+                            "SUBCATG_DESC": "Wiper - Arm & Blade",
+                            "SUBCATG_CODE": "WIPAB"
+                        },
+                        {
+                            "SUBCATG_DESC": "Wiper - Washer Tank",
+                            "SUBCATG_CODE": "WIPWT"
+                        },
+                        {
+                            "SUBCATG_DESC": "Wiper Blade - Rear",
+                            "SUBCATG_CODE": "WIPBR"
+                        },
+                        {
+                            "SUBCATG_DESC": "Wiper Components",
+                            "SUBCATG_CODE": "WIPCP"
+                        },
+                        {
+                            "SUBCATG_DESC": "Wiper Nozzle",
+                            "SUBCATG_CODE": "WIPNO"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "Wiring & Controllers",
+                    "CATG_CODE": "W_EWC",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Battery Ground Cable",
+                            "SUBCATG_CODE": "BAGCA"
+                        },
+                        {
+                            "SUBCATG_DESC": "Box Set",
+                            "SUBCATG_CODE": "ELBOX"
+                        },
+                        {
+                            "SUBCATG_DESC": "Cable - Contact Coil",
+                            "SUBCATG_CODE": "ELCCC"
+                        },
+                        {
+                            "SUBCATG_DESC": "Controller Air Bag",
+                            "SUBCATG_CODE": "ELCAB"
+                        },
+                        {
+                            "SUBCATG_DESC": "ECM/ECU",
+                            "SUBCATG_CODE": "ELECM"
+                        },
+                        {
+                            "SUBCATG_DESC": "Floor Wiring Harness",
+                            "SUBCATG_CODE": "WRHFL"
+                        },
+                        {
+                            "SUBCATG_DESC": "Instrument Panel Wiring",
+                            "SUBCATG_CODE": "WRHIP"
+                        },
+                        {
+                            "SUBCATG_DESC": "Speedometer Cable",
+                            "SUBCATG_CODE": "SPECA"
+                        },
+                        {
+                            "SUBCATG_DESC": "Starter Motor Cable",
+                            "SUBCATG_CODE": "SMOCA"
+                        },
+                        {
+                            "SUBCATG_DESC": "Wiring - Air Bag",
+                            "SUBCATG_CODE": "WIRAB"
+                        },
+                        {
+                            "SUBCATG_DESC": "Wiring - Sensors",
+                            "SUBCATG_CODE": "WIRSN"
+                        },
+                        {
+                            "SUBCATG_DESC": "Wiring Harness",
+                            "SUBCATG_CODE": "ELWRH"
+                        }
+                    ]
+                }
+            ],
+            "PARENT_CATG_CODE": "P_ELE",
+            "PARENT_CATG_DESC": "Electrical"
+        },
+        {
+            "categoryDetailList": [
+                {
+                    "CATG_DESC": "Engine Components",
+                    "CATG_CODE": "W_ENC",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Accelerator Cable",
+                            "SUBCATG_CODE": "ACCAB"
+                        },
+                        {
+                            "SUBCATG_DESC": "Air Cleaner Assembly",
+                            "SUBCATG_CODE": "AIRCA"
+                        },
+                        {
+                            "SUBCATG_DESC": "Cam Shaft",
+                            "SUBCATG_CODE": "ENCAS"
+                        },
+                        {
+                            "SUBCATG_DESC": "Case Assembly",
+                            "SUBCATG_CODE": "CASOF"
+                        },
+                        {
+                            "SUBCATG_DESC": "CNG Filter Repair Kit",
+                            "SUBCATG_CODE": "CNGRK"
+                        },
+                        {
+                            "SUBCATG_DESC": "Connecting Rod",
+                            "SUBCATG_CODE": "ENCOR"
+                        },
+                        {
+                            "SUBCATG_DESC": "Crankshaft",
+                            "SUBCATG_CODE": "ENCRS"
+                        },
+                        {
+                            "SUBCATG_DESC": "Cylinder Block",
+                            "SUBCATG_CODE": "ENCYB"
+                        },
+                        {
+                            "SUBCATG_DESC": "Cylinder Head",
+                            "SUBCATG_CODE": "ENCYH"
+                        },
+                        {
+                            "SUBCATG_DESC": "Degassing Tank",
+                            "SUBCATG_CODE": "DEGAT"
+                        },
+                        {
+                            "SUBCATG_DESC": "Degassing Tank Components",
+                            "SUBCATG_CODE": "DECMP"
+                        },
+                        {
+                            "SUBCATG_DESC": "EGR Components",
+                            "SUBCATG_CODE": "ENEGC"
+                        },
+                        {
+                            "SUBCATG_DESC": "ENGINE ASSEMBLY",
+                            "SUBCATG_CODE": "ENGNE"
+                        },
+                        {
+                            "SUBCATG_DESC": "Engine Bearings",
+                            "SUBCATG_CODE": "ENBRG"
+                        },
+                        {
+                            "SUBCATG_DESC": "Engine Components -Hardware",
+                            "SUBCATG_CODE": "ENCHD"
+                        },
+                        {
+                            "SUBCATG_DESC": "Engine Components -Others",
+                            "SUBCATG_CODE": "ENCPO"
+                        },
+                        {
+                            "SUBCATG_DESC": "Engine Gaskets",
+                            "SUBCATG_CODE": "ENGKT"
+                        },
+                        {
+                            "SUBCATG_DESC": "Engine Guide Valve",
+                            "SUBCATG_CODE": "ENGUV"
+                        },
+                        {
+                            "SUBCATG_DESC": "Engine Hoses",
+                            "SUBCATG_CODE": "ENHOS"
+                        },
+                        {
+                            "SUBCATG_DESC": "Engine Pulley",
+                            "SUBCATG_CODE": "ENPUL"
+                        },
+                        {
+                            "SUBCATG_DESC": "Oil Separator",
+                            "SUBCATG_CODE": "EOSEP"
+                        },
+                        {
+                            "SUBCATG_DESC": "Piston & Piston Ring",
+                            "SUBCATG_CODE": "ENPIR"
+                        },
+                        {
+                            "SUBCATG_DESC": "Rocker Arm",
+                            "SUBCATG_CODE": "ENRKR"
+                        },
+                        {
+                            "SUBCATG_DESC": "Throttle Body",
+                            "SUBCATG_CODE": "ENTHR"
+                        },
+                        {
+                            "SUBCATG_DESC": "Turbo Charger",
+                            "SUBCATG_CODE": "TURBO"
+                        },
+                        {
+                            "SUBCATG_DESC": "Vaccum Pump",
+                            "SUBCATG_CODE": "ENVAP"
+                        },
+                        {
+                            "SUBCATG_DESC": "Valves & Tappet",
+                            "SUBCATG_CODE": "VALIE"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "Engine Sensors",
+                    "CATG_CODE": "W_ENS",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Knock Sensor",
+                            "SUBCATG_CODE": "SENKN"
+                        },
+                        {
+                            "SUBCATG_DESC": "Maf Sensor",
+                            "SUBCATG_CODE": "SENMF"
+                        },
+                        {
+                            "SUBCATG_DESC": "Map Sensor",
+                            "SUBCATG_CODE": "SENMA"
+                        },
+                        {
+                            "SUBCATG_DESC": "Oxygen sensor",
+                            "SUBCATG_CODE": "SENOX"
+                        },
+                        {
+                            "SUBCATG_DESC": "Position Sensor",
+                            "SUBCATG_CODE": "CRPOS"
+                        },
+                        {
+                            "SUBCATG_DESC": "Temperature Sensor",
+                            "SUBCATG_CODE": "SENTP"
+                        },
+                        {
+                            "SUBCATG_DESC": "Thermostat Components",
+                            "SUBCATG_CODE": "TSTCP"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "Flywheel & Mounting",
+                    "CATG_CODE": "W_EFW",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Engine Mounting Front & Rear",
+                            "SUBCATG_CODE": "ENMRR"
+                        },
+                        {
+                            "SUBCATG_DESC": "Engine Mounting Left",
+                            "SUBCATG_CODE": "ENMOL"
+                        },
+                        {
+                            "SUBCATG_DESC": "Engine Mounting Right",
+                            "SUBCATG_CODE": "ENMOR"
+                        },
+                        {
+                            "SUBCATG_DESC": "Flywheel",
+                            "SUBCATG_CODE": "ENFLW"
+                        },
+                        {
+                            "SUBCATG_DESC": "Mounting Component",
+                            "SUBCATG_CODE": "ENMOC"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "Fuel Injection System",
+                    "CATG_CODE": "W_EFS",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Fuel HP Pump Assy",
+                            "SUBCATG_CODE": "ENFHP"
+                        },
+                        {
+                            "SUBCATG_DESC": "Fuel Injection - Pipe & Hose",
+                            "SUBCATG_CODE": "FUPIH"
+                        },
+                        {
+                            "SUBCATG_DESC": "Fuel Injector Assy",
+                            "SUBCATG_CODE": "ENFIA"
+                        },
+                        {
+                            "SUBCATG_DESC": "Fuel Pressure Regulator",
+                            "SUBCATG_CODE": "FUREG"
+                        },
+                        {
+                            "SUBCATG_DESC": "Fuel Pump Assy",
+                            "SUBCATG_CODE": "ENFPA"
+                        },
+                        {
+                            "SUBCATG_DESC": "Fuel Rail",
+                            "SUBCATG_CODE": "ENFRL"
+                        },
+                        {
+                            "SUBCATG_DESC": "Hardware - Fuel Injection",
+                            "SUBCATG_CODE": "FUHRD"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "Half Engine Assembly",
+                    "CATG_CODE": "W_HAE",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Half Engine - Diesel",
+                            "SUBCATG_CODE": "HAEDI"
+                        },
+                        {
+                            "SUBCATG_DESC": "Half Engine - Petrol",
+                            "SUBCATG_CODE": "HAEPT"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "Manifolds & Exhaust",
+                    "CATG_CODE": "W_EME",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Catalytic Convertor",
+                            "SUBCATG_CODE": "MECAT"
+                        },
+                        {
+                            "SUBCATG_DESC": "Exhaust Manifold",
+                            "SUBCATG_CODE": "MEEXH"
+                        },
+                        {
+                            "SUBCATG_DESC": "Hardware - Exhaust & Manifold",
+                            "SUBCATG_CODE": "EXHAM"
+                        },
+                        {
+                            "SUBCATG_DESC": "Intake Manifold",
+                            "SUBCATG_CODE": "MEINT"
+                        },
+                        {
+                            "SUBCATG_DESC": "Muffler",
+                            "SUBCATG_CODE": "MEMUF"
+                        },
+                        {
+                            "SUBCATG_DESC": "Muffler Mounting",
+                            "SUBCATG_CODE": "MUFMO"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "Oil Chamber / Strainer",
+                    "CATG_CODE": "W_OCS",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Engine Oil Pan",
+                            "SUBCATG_CODE": "ENOIP"
+                        },
+                        {
+                            "SUBCATG_DESC": "Oil Level Gauge",
+                            "SUBCATG_CODE": "OILLG"
+                        },
+                        {
+                            "SUBCATG_DESC": "Oil Strainer ",
+                            "SUBCATG_CODE": "ENOIS"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "Oil Pump & Water Pump",
+                    "CATG_CODE": "W_OWP",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Components - Oil /Water Pump",
+                            "SUBCATG_CODE": "ENOWC"
+                        },
+                        {
+                            "SUBCATG_DESC": "Oil Pump",
+                            "SUBCATG_CODE": "ENOPU"
+                        },
+                        {
+                            "SUBCATG_DESC": "Water Pump",
+                            "SUBCATG_CODE": "ENWTP"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "Periodic Maintenance ",
+                    "CATG_CODE": "W_PMS",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Air Filter",
+                            "SUBCATG_CODE": "FILTRA"
+                        },
+                        {
+                            "SUBCATG_DESC": "Drain plug & gasket",
+                            "SUBCATG_CODE": "PMDPG"
+                        },
+                        {
+                            "SUBCATG_DESC": "Fuel Filter",
+                            "SUBCATG_CODE": "FILFU"
+                        },
+                        {
+                            "SUBCATG_DESC": "Fuel Filter Assembly",
+                            "SUBCATG_CODE": "FIFFA"
+                        },
+                        {
+                            "SUBCATG_DESC": "Glow Plug",
+                            "SUBCATG_CODE": "GLOWP"
+                        },
+                        {
+                            "SUBCATG_DESC": "Oil Filter",
+                            "SUBCATG_CODE": "FILOI"
+                        },
+                        {
+                            "SUBCATG_DESC": "Spark Plug",
+                            "SUBCATG_CODE": "SPARK"
+                        },
+                        {
+                            "SUBCATG_DESC": "Water Pump Belt",
+                            "SUBCATG_CODE": "BELWP"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "Radiators & Inter Cooler",
+                    "CATG_CODE": "W_RAI",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Fan Motor Assembly",
+                            "SUBCATG_CODE": "RADFA"
+                        },
+                        {
+                            "SUBCATG_DESC": "Hardware - Intercooler & Radiator",
+                            "SUBCATG_CODE": "RAINH"
+                        },
+                        {
+                            "SUBCATG_DESC": "Inter Cooler",
+                            "SUBCATG_CODE": "ENINC"
+                        },
+                        {
+                            "SUBCATG_DESC": "Intercooler Pipe & Hose",
+                            "SUBCATG_CODE": "INPIH"
+                        },
+                        {
+                            "SUBCATG_DESC": "Radiator - Fan Motor",
+                            "SUBCATG_CODE": "RADFM"
+                        },
+                        {
+                            "SUBCATG_DESC": "Radiator Assembly",
+                            "SUBCATG_CODE": "ENRAD"
+                        },
+                        {
+                            "SUBCATG_DESC": "Radiator Cap",
+                            "SUBCATG_CODE": "RADCA"
+                        },
+                        {
+                            "SUBCATG_DESC": "Radiator Cover",
+                            "SUBCATG_CODE": "RADCO"
+                        },
+                        {
+                            "SUBCATG_DESC": "Radiator Pipe & Hose",
+                            "SUBCATG_CODE": "RAPIH"
+                        },
+                        {
+                            "SUBCATG_DESC": "Shroud",
+                            "SUBCATG_CODE": "SHROU"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "Timing Belt & Components",
+                    "CATG_CODE": "W_BTT",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Timing Chain Belt",
+                            "SUBCATG_CODE": "TIMCB"
+                        },
+                        {
+                            "SUBCATG_DESC": "Timing Components",
+                            "SUBCATG_CODE": "TIMCO"
+                        }
+                    ]
+                }
+            ],
+            "PARENT_CATG_CODE": "P_ENG",
+            "PARENT_CATG_DESC": "Engine"
+        },
+        {
+            "categoryDetailList": [
+                {
+                    "CATG_DESC": "Ball Joints Kit",
+                    "CATG_CODE": "W_BJK",
+                    "SUBCATG_DETAILS_LIST": null
+                },
+                {
+                    "CATG_DESC": "Damper Kit",
+                    "CATG_CODE": "W_DPK",
+                    "SUBCATG_DETAILS_LIST": null
+                },
+                {
+                    "CATG_DESC": "Engine Gasket Kit",
+                    "CATG_CODE": "W_EGK",
+                    "SUBCATG_DETAILS_LIST": null
+                },
+                {
+                    "CATG_DESC": "Filter Combo Kit - Diesel",
+                    "CATG_CODE": "W_FKD",
+                    "SUBCATG_DETAILS_LIST": null
+                },
+                {
+                    "CATG_DESC": "Filter Combo Kit - Petrol",
+                    "CATG_CODE": "W_FKP",
+                    "SUBCATG_DETAILS_LIST": null
+                },
+                {
+                    "CATG_DESC": "Repair Kits",
+                    "CATG_CODE": "W_KIT",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Ball Joints Kit",
+                            "SUBCATG_CODE": "BAJKI"
+                        },
+                        {
+                            "SUBCATG_DESC": "Clutch Kit",
+                            "SUBCATG_CODE": "CLKIT"
+                        },
+                        {
+                            "SUBCATG_DESC": "Damper Kit",
+                            "SUBCATG_CODE": "DAMKI"
+                        },
+                        {
+                            "SUBCATG_DESC": "Engine Gasket Kit",
+                            "SUBCATG_CODE": "EGASK"
+                        },
+                        {
+                            "SUBCATG_DESC": "Filters Combo Kit - Diesel",
+                            "SUBCATG_CODE": "SKDIE"
+                        },
+                        {
+                            "SUBCATG_DESC": "Filters Combo Kit - Petrol",
+                            "SUBCATG_CODE": "SKPET"
+                        },
+                        {
+                            "SUBCATG_DESC": "Leaf Spring Bush Kit",
+                            "SUBCATG_CODE": "LSBKI"
+                        },
+                        {
+                            "SUBCATG_DESC": "Repair Kits - Others",
+                            "SUBCATG_CODE": "SKITO"
+                        },
+                        {
+                            "SUBCATG_DESC": "Strut Bush Kit",
+                            "SUBCATG_CODE": "STBKI"
+                        },
+                        {
+                            "SUBCATG_DESC": "Strut Kit",
+                            "SUBCATG_CODE": "STRKI"
+                        },
+                        {
+                            "SUBCATG_DESC": "Suspension Arm Kit(lh+rh)",
+                            "SUBCATG_CODE": "SUAKI"
+                        },
+                        {
+                            "SUBCATG_DESC": "Suspesion Kit (Left & Right)",
+                            "SUBCATG_CODE": "SPNKI"
+                        },
+                        {
+                            "SUBCATG_DESC": "Wiper Blade Kit (Left & Right)",
+                            "SUBCATG_CODE": "WIBKI"
+                        }
+                    ]
+                }
+            ],
+            "PARENT_CATG_CODE": "P_SCP",
+            "PARENT_CATG_DESC": "Service Combo Packs"
+        },
+        {
+            "categoryDetailList": [
+                {
+                    "CATG_DESC": "Braking System",
+                    "CATG_CODE": "W_BRS",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "ABS Actuator",
+                            "SUBCATG_CODE": "SAFAA"
+                        },
+                        {
+                            "SUBCATG_DESC": "Air Bag",
+                            "SUBCATG_CODE": "SAFAB"
+                        },
+                        {
+                            "SUBCATG_DESC": "Brake Booster Assembly",
+                            "SUBCATG_CODE": "BRBOS"
+                        },
+                        {
+                            "SUBCATG_DESC": "Brake Caliper",
+                            "SUBCATG_CODE": "FBCAL"
+                        },
+                        {
+                            "SUBCATG_DESC": "Brake Caliper Grease",
+                            "SUBCATG_CODE": "BCALG"
+                        },
+                        {
+                            "SUBCATG_DESC": "Brake Drum",
+                            "SUBCATG_CODE": "BRDRU"
+                        },
+                        {
+                            "SUBCATG_DESC": "Brake Master Cylinder",
+                            "SUBCATG_CODE": "BRMCA"
+                        },
+                        {
+                            "SUBCATG_DESC": "Brake Pad Set",
+                            "SUBCATG_CODE": "BRPAD"
+                        },
+                        {
+                            "SUBCATG_DESC": "Brake Shoe Set",
+                            "SUBCATG_CODE": "BRSHE"
+                        },
+                        {
+                            "SUBCATG_DESC": "Braking Components",
+                            "SUBCATG_CODE": "BRACO"
+                        },
+                        {
+                            "SUBCATG_DESC": "Caliper Pin",
+                            "SUBCATG_CODE": "BRCPI"
+                        },
+                        {
+                            "SUBCATG_DESC": "Front Brake Disc",
+                            "SUBCATG_CODE": "FBRDI"
+                        },
+                        {
+                            "SUBCATG_DESC": "Hand Brake Cable",
+                            "SUBCATG_CODE": "CABPA"
+                        },
+                        {
+                            "SUBCATG_DESC": "Hand Brake Lever",
+                            "SUBCATG_CODE": "LEBPA"
+                        },
+                        {
+                            "SUBCATG_DESC": "Rear Brake Disc",
+                            "SUBCATG_CODE": "RRBDI"
+                        },
+                        {
+                            "SUBCATG_DESC": "Reservoir Cap",
+                            "SUBCATG_CODE": "BRREC"
+                        },
+                        {
+                            "SUBCATG_DESC": "Sliding Pin Set",
+                            "SUBCATG_CODE": "BRSLP"
+                        },
+                        {
+                            "SUBCATG_DESC": "Wheel Cylinder Assembly",
+                            "SUBCATG_CODE": "WHCYA"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "Drive Shaft",
+                    "CATG_CODE": "W_DRS",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Drive Shaft Boot",
+                            "SUBCATG_CODE": "DRSBO"
+                        },
+                        {
+                            "SUBCATG_DESC": "Drive Shafts",
+                            "SUBCATG_CODE": "FDRAL"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "Leaf Spring Suspension",
+                    "CATG_CODE": "W_SUL",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Leaf Spring",
+                            "SUBCATG_CODE": "LESPR"
+                        },
+                        {
+                            "SUBCATG_DESC": "Leaf Spring Components",
+                            "SUBCATG_CODE": "LESEA"
+                        },
+                        {
+                            "SUBCATG_DESC": "Leaf Spring Mounting",
+                            "SUBCATG_CODE": "LEMOU"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "Steering Assembly",
+                    "CATG_CODE": "W_STA",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Steering  Column Assembly",
+                            "SUBCATG_CODE": "SRCOA"
+                        },
+                        {
+                            "SUBCATG_DESC": "Steering Gear Box",
+                            "SUBCATG_CODE": "STGBA"
+                        },
+                        {
+                            "SUBCATG_DESC": "Steering Shaft Assembly",
+                            "SUBCATG_CODE": "STRSA"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "Steering Components",
+                    "CATG_CODE": "W_STC",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Bracket - Steering Gear Box",
+                            "SUBCATG_CODE": "STBRA"
+                        },
+                        {
+                            "SUBCATG_DESC": "Rear Axle Nut",
+                            "SUBCATG_CODE": "SRANU"
+                        },
+                        {
+                            "SUBCATG_DESC": "Steering  Boot",
+                            "SUBCATG_CODE": "SRBOO"
+                        },
+                        {
+                            "SUBCATG_DESC": "Steering  Boot - Rack",
+                            "SUBCATG_CODE": "SRBOR"
+                        },
+                        {
+                            "SUBCATG_DESC": "Steering  Wheel",
+                            "SUBCATG_CODE": "SRWHE"
+                        },
+                        {
+                            "SUBCATG_DESC": "Steering Comp - Pinion",
+                            "SUBCATG_CODE": "SRCOP"
+                        },
+                        {
+                            "SUBCATG_DESC": "Steering Comp - Plunger",
+                            "SUBCATG_CODE": "SRCOG"
+                        },
+                        {
+                            "SUBCATG_DESC": "Steering Component - others",
+                            "SUBCATG_CODE": "STRCP"
+                        },
+                        {
+                            "SUBCATG_DESC": "Steering Knuckle",
+                            "SUBCATG_CODE": "SRKNL"
+                        },
+                        {
+                            "SUBCATG_DESC": "Steering Rack",
+                            "SUBCATG_CODE": "SRRAK"
+                        },
+                        {
+                            "SUBCATG_DESC": "Steering Rack-bush",
+                            "SUBCATG_CODE": "SRRAB"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "Struts Shock Absorber",
+                    "CATG_CODE": "W_SSA",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Front Strut Assembly",
+                            "SUBCATG_CODE": "FSSAL"
+                        },
+                        {
+                            "SUBCATG_DESC": "Front Strut Set",
+                            "SUBCATG_CODE": "FSSSR"
+                        },
+                        {
+                            "SUBCATG_DESC": "Rear Shock Absorber ",
+                            "SUBCATG_CODE": "RSABA"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "Suspension Arms",
+                    "CATG_CODE": "W_SNA",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Front Suspension Arms",
+                            "SUBCATG_CODE": "FSAAR"
+                        },
+                        {
+                            "SUBCATG_DESC": "Rear Suspension Arms",
+                            "SUBCATG_CODE": "RSAAR"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "Suspension Axle",
+                    "CATG_CODE": "W_SAX",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Front Suspension Frame",
+                            "SUBCATG_CODE": "FRSUF"
+                        },
+                        {
+                            "SUBCATG_DESC": "Rear Axle",
+                            "SUBCATG_CODE": "SURRA"
+                        },
+                        {
+                            "SUBCATG_DESC": "Rear Suspension Beam",
+                            "SUBCATG_CODE": "RRSBA"
+                        },
+                        {
+                            "SUBCATG_DESC": "Suspension Axle - Components",
+                            "SUBCATG_CODE": "SUSAC"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "Suspension Components",
+                    "CATG_CODE": "W_SUC",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Arm Bush",
+                            "SUBCATG_CODE": "SUSAB"
+                        },
+                        {
+                            "SUBCATG_DESC": "Coil Spring Components",
+                            "SUBCATG_CODE": "COSPC"
+                        },
+                        {
+                            "SUBCATG_DESC": "Hardware - Suspension",
+                            "SUBCATG_CODE": "SUSHD"
+                        },
+                        {
+                            "SUBCATG_DESC": "Joint Assembly",
+                            "SUBCATG_CODE": "JOINA"
+                        },
+                        {
+                            "SUBCATG_DESC": "SPRING REAR COIL",
+                            "SUBCATG_CODE": "SUSRC"
+                        },
+                        {
+                            "SUBCATG_DESC": "Strut Bearing",
+                            "SUBCATG_CODE": "FRSTB"
+                        },
+                        {
+                            "SUBCATG_DESC": "Strut Dust Cover",
+                            "SUBCATG_CODE": "STDCO"
+                        },
+                        {
+                            "SUBCATG_DESC": "Strut Mount",
+                            "SUBCATG_CODE": "FRSTM"
+                        },
+                        {
+                            "SUBCATG_DESC": "Strut Stopper",
+                            "SUBCATG_CODE": "FRSTO"
+                        },
+                        {
+                            "SUBCATG_DESC": "Strut Support",
+                            "SUBCATG_CODE": "FRSTS"
+                        },
+                        {
+                            "SUBCATG_DESC": "Suspension Rod",
+                            "SUBCATG_CODE": "SUSRO"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "Suspension Stabiliser",
+                    "CATG_CODE": "W_SSC",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Bar Bushing",
+                            "SUBCATG_CODE": "STBBU"
+                        },
+                        {
+                            "SUBCATG_DESC": "Bar Joint",
+                            "SUBCATG_CODE": "SUSBJ"
+                        },
+                        {
+                            "SUBCATG_DESC": "Bar Mount",
+                            "SUBCATG_CODE": "SUSBM"
+                        },
+                        {
+                            "SUBCATG_DESC": "Bracket Stabiliser",
+                            "SUBCATG_CODE": "STBRK"
+                        },
+                        {
+                            "SUBCATG_DESC": "Stabiliser Bar",
+                            "SUBCATG_CODE": "SUSTB"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "Tie Rod End",
+                    "CATG_CODE": "W_TRE",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Tie Rod & End",
+                            "SUBCATG_CODE": "STCTR"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "Wheel Bearing",
+                    "CATG_CODE": "W_WBR",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Front Wheel Bearing",
+                            "SUBCATG_CODE": "FRWBR"
+                        },
+                        {
+                            "SUBCATG_DESC": "Rear Wheel Bearing",
+                            "SUBCATG_CODE": "RRWBR"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "Wheel Hub & Rim",
+                    "CATG_CODE": "W_WHR",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Front Wheel Hub ",
+                            "SUBCATG_CODE": "FRWHA"
+                        },
+                        {
+                            "SUBCATG_DESC": "Rear Wheel Hub Assembly",
+                            "SUBCATG_CODE": "RRWHA"
+                        },
+                        {
+                            "SUBCATG_DESC": "Tyre Valve",
+                            "SUBCATG_CODE": "WHTRV"
+                        },
+                        {
+                            "SUBCATG_DESC": "Wheel Balance Weights",
+                            "SUBCATG_CODE": "WBLWT"
+                        },
+                        {
+                            "SUBCATG_DESC": "Wheel Cap Covers",
+                            "SUBCATG_CODE": "WCACO"
+                        },
+                        {
+                            "SUBCATG_DESC": "Wheel Hardware",
+                            "SUBCATG_CODE": "WHHPC"
+                        },
+                        {
+                            "SUBCATG_DESC": "Wheel Rim",
+                            "SUBCATG_CODE": "WHRIM"
+                        },
+                        {
+                            "SUBCATG_DESC": "Wheel Sensor",
+                            "SUBCATG_CODE": "WHSEN"
+                        }
+                    ]
+                }
+            ],
+            "PARENT_CATG_CODE": "P_SNB",
+            "PARENT_CATG_DESC": "Suspension & Braking"
+        },
+        {
+            "categoryDetailList": [
+                {
+                    "CATG_DESC": "Automatic Transmission",
+                    "CATG_CODE": "W_TAT",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "AT Transmission & Components",
+                            "SUBCATG_CODE": "ATTRA"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "Clutch",
+                    "CATG_CODE": "W_CLC",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Clutch Cable",
+                            "SUBCATG_CODE": "CLCAB"
+                        },
+                        {
+                            "SUBCATG_DESC": "Clutch Cover Assembly",
+                            "SUBCATG_CODE": "CLCOV"
+                        },
+                        {
+                            "SUBCATG_DESC": "Clutch Disc",
+                            "SUBCATG_CODE": "CDISC"
+                        },
+                        {
+                            "SUBCATG_DESC": "Clutch Pressure Set",
+                            "SUBCATG_CODE": "CPSET"
+                        },
+                        {
+                            "SUBCATG_DESC": "Gear Cable",
+                            "SUBCATG_CODE": "CASHS"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "Clutch Release",
+                    "CATG_CODE": "W_CRB",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Arm Clutch Release",
+                            "SUBCATG_CODE": "CLUAR"
+                        },
+                        {
+                            "SUBCATG_DESC": "Clutch Cylinder Assembly",
+                            "SUBCATG_CODE": "CLCYA"
+                        },
+                        {
+                            "SUBCATG_DESC": "Clutch Release Bearing",
+                            "SUBCATG_CODE": "CLRBR"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "Gear Shift",
+                    "CATG_CODE": "W_LKB",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Boot Shift Lever",
+                            "SUBCATG_CODE": "GEBOL"
+                        },
+                        {
+                            "SUBCATG_DESC": "Gear Shift Knob",
+                            "SUBCATG_CODE": "TGSKN"
+                        },
+                        {
+                            "SUBCATG_DESC": "Gear Shift Lever",
+                            "SUBCATG_CODE": "TGSLV"
+                        },
+                        {
+                            "SUBCATG_DESC": "Gear Shift Shaft",
+                            "SUBCATG_CODE": "GESSH"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "Synchroniser",
+                    "CATG_CODE": "W_TSR",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Synchroniser Ring",
+                            "SUBCATG_CODE": "SYNCR"
+                        }
+                    ]
+                },
+                {
+                    "CATG_DESC": "Transmission Case",
+                    "CATG_CODE": "W_TRC",
+                    "SUBCATG_DETAILS_LIST": null
+                },
+                {
+                    "CATG_DESC": "Transmission Components",
+                    "CATG_CODE": "W_TTC",
+                    "SUBCATG_DETAILS_LIST": [
+                        {
+                            "SUBCATG_DESC": "Actuator Assembly",
+                            "SUBCATG_CODE": "TACTA"
+                        },
+                        {
+                            "SUBCATG_DESC": "Clutch Cover Bolt",
+                            "SUBCATG_CODE": "CCBOL"
+                        },
+                        {
+                            "SUBCATG_DESC": "Clutch Oil Pipe",
+                            "SUBCATG_CODE": "CLOPI"
+                        },
+                        {
+                            "SUBCATG_DESC": "Clutch Release Components",
+                            "SUBCATG_CODE": "CRFOS"
+                        },
+                        {
+                            "SUBCATG_DESC": "Differential Components",
+                            "SUBCATG_CODE": "DIFCO"
+                        },
+                        {
+                            "SUBCATG_DESC": "Drive Shaft - Intermediate",
+                            "SUBCATG_CODE": "DRSIN"
+                        },
+                        {
+                            "SUBCATG_DESC": "Propeller Shaft",
+                            "SUBCATG_CODE": "TCPRS"
+                        },
+                        {
+                            "SUBCATG_DESC": "Shift Lever Boot",
+                            "SUBCATG_CODE": "TSHLB"
+                        },
+                        {
+                            "SUBCATG_DESC": "Transmission Assembly",
+                            "SUBCATG_CODE": "TRMAS"
+                        },
+                        {
+                            "SUBCATG_DESC": "Transmission Assy a/m",
+                            "SUBCATG_CODE": "TCASA"
+                        },
+                        {
+                            "SUBCATG_DESC": "Transmission Bearings",
+                            "SUBCATG_CODE": "TRBRG"
+                        },
+                        {
+                            "SUBCATG_DESC": "Transmission Case",
+                            "SUBCATG_CODE": "TCTCA"
+                        },
+                        {
+                            "SUBCATG_DESC": "Transmission Comp-others",
+                            "SUBCATG_CODE": "TCCPO"
+                        },
+                        {
+                            "SUBCATG_DESC": "Transmission Counter Shaft",
+                            "SUBCATG_CODE": "TRCOS"
+                        },
+                        {
+                            "SUBCATG_DESC": "Transmission Gear",
+                            "SUBCATG_CODE": "TCGEA"
+                        },
+                        {
+                            "SUBCATG_DESC": "Transmission Hub",
+                            "SUBCATG_CODE": "TCHUB"
+                        },
+                        {
+                            "SUBCATG_DESC": "Transmission Input Shaft",
+                            "SUBCATG_CODE": "TRSHA"
+                        },
+                        {
+                            "SUBCATG_DESC": "Transmission Seal",
+                            "SUBCATG_CODE": "TRSEA"
+                        }
+                    ]
+                }
+            ],
+            "PARENT_CATG_CODE": "P_TRN",
+            "PARENT_CATG_DESC": "Transmission"
+        }
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="VerifyCategoryTreeWithInvalidQueryParameter" classname="api.test.CategoryTreeTest" time="0.235">
+    <system-out><![CDATA[https://cf.msilcrm.co.in/crm-common/api/common/msil/partmaster/search-category-tree
+HTTP/1.1 404 Not Found
+Content-Type: application/json
+Content-Length: 120
+Connection: keep-alive
+Date: Fri, 06 Oct 2023 08:43:50 GMT
+X-XSS-Protection: 1; mode=block
+Content-Security-Policy: default-src 'self' blob:; img-src 'self' blob:; script-src 'unsafe-eval' 'unsafe-inline' 'self' https://cf.msilcrm.co.in/* https://*.msilcrm.co.in/ https://crm-dev-static-website.s3.ap-south-1.amazonaws.com/uniagentDialerFunc.js;  font-src 'self' blob:; style-src 'self' 'unsafe-inline'; frame-src *; connect-src 'self' https://cf.msilcrm.co.in/ https://*.msilcrm.co.in/ https://*.cloudfront.net https://*.amazonaws.com https://www.preprod.marutisuzukisubscribe.com https://*.amazoncognito.com https://*.cf.marutisuzukisubscribe.com https://*.msilcrm.co.in https://msilcrm.co.in; blob:
+x-amzn-Remapped-Connection: keep-alive
+x-amz-apigw-id: MXxPHH3vBcwFn0A=
+Cache-Control: nocache
+X-Content-Type-Options: nosniff
+x-amzn-Remapped-Date: Fri, 06 Oct 2023 08:43:50 GMT
+Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+X-Frame-Options: DENY
+Referrer-Policy: same-origin
+Server: Unspecified
+x-amzn-RequestId: 67a0f28b-0f1b-4e60-bbad-bfd06071a350
+Vary: Origin
+X-Cache: Error from cloudfront
+Via: 1.1 ed7ae31235b8ed36f3f4794d64e4fb2a.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BOM54-P2
+X-Amz-Cf-Id: R1oBXFKhMq9r1ZR0OtLdndazmZ5wv07Rp9agEtlNT9QVf_Ul9OKvNA==
+
+{
+    "error": true,
+    "errors": [
+        {
+            "errorCode": "FAILED.TO.GET.DATA",
+            "errorMessage": "Data not found for given Input"
+        }
+    ],
+    "data": null
+}
+]]></system-out>
+  </testcase>
+  <testcase name="VerifyCategoryTreeWithoutQueryParameter" classname="api.test.CategoryTreeTest" time="0.2">
+    <system-out><![CDATA[HTTP/1.1 400 Bad Request
+Content-Type: application/json
+Content-Length: 203
+Connection: keep-alive
+Date: Fri, 06 Oct 2023 08:43:51 GMT
+X-XSS-Protection: 1; mode=block
+Content-Security-Policy: default-src 'self' blob:; img-src 'self' blob:; script-src 'unsafe-eval' 'unsafe-inline' 'self' https://cf.msilcrm.co.in/* https://*.msilcrm.co.in/ https://crm-dev-static-website.s3.ap-south-1.amazonaws.com/uniagentDialerFunc.js;  font-src 'self' blob:; style-src 'self' 'unsafe-inline'; frame-src *; connect-src 'self' https://cf.msilcrm.co.in/ https://*.msilcrm.co.in/ https://*.cloudfront.net https://*.amazonaws.com https://www.preprod.marutisuzukisubscribe.com https://*.amazoncognito.com https://*.cf.marutisuzukisubscribe.com https://*.msilcrm.co.in https://msilcrm.co.in; blob:
+x-amzn-Remapped-Connection: keep-alive
+x-amz-apigw-id: MXxPKHfphcwFi0Q=
+Cache-Control: nocache
+X-Content-Type-Options: nosniff
+x-amzn-Remapped-Date: Fri, 06 Oct 2023 08:43:51 GMT
+Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+X-Frame-Options: DENY
+Referrer-Policy: same-origin
+Server: Unspecified
+x-amzn-RequestId: 991e68a3-79b2-45b4-b017-80e3b39c5d0f
+Vary: Origin
+X-Cache: Error from cloudfront
+Via: 1.1 430b905be220acad607f370219d1315e.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BOM54-P2
+X-Amz-Cf-Id: _ABTqbKeK4MjpjLTPabru9KerRyOt0aUv7mXf1QAGOB3TtGii8jh6Q==
+
+{
+    "error": true,
+    "errors": [
+        {
+            "errorCode": "All required values must be provided.",
+            "errorMessage": "Required request parameter 'mastApplicability' for method parameter type String is not present"
+        }
+    ],
+    "data": null
+}
+]]></system-out>
+  </testcase>
+  <testcase name="VerifyErrorCodeAndErrorMessageWithInvalidQueryParameter" classname="api.test.CategoryTreeTest" time="0.245">
+    <system-out><![CDATA[https://cf.msilcrm.co.in/crm-common/api/common/msil/partmaster/search-category-tree
+HTTP/1.1 404 Not Found
+Content-Type: application/json
+Content-Length: 120
+Connection: keep-alive
+Date: Fri, 06 Oct 2023 08:43:50 GMT
+X-XSS-Protection: 1; mode=block
+Content-Security-Policy: default-src 'self' blob:; img-src 'self' blob:; script-src 'unsafe-eval' 'unsafe-inline' 'self' https://cf.msilcrm.co.in/* https://*.msilcrm.co.in/ https://crm-dev-static-website.s3.ap-south-1.amazonaws.com/uniagentDialerFunc.js;  font-src 'self' blob:; style-src 'self' 'unsafe-inline'; frame-src *; connect-src 'self' https://cf.msilcrm.co.in/ https://*.msilcrm.co.in/ https://*.cloudfront.net https://*.amazonaws.com https://www.preprod.marutisuzukisubscribe.com https://*.amazoncognito.com https://*.cf.marutisuzukisubscribe.com https://*.msilcrm.co.in https://msilcrm.co.in; blob:
+x-amzn-Remapped-Connection: keep-alive
+x-amz-apigw-id: MXxPHH3vBcwFn0A=
+Cache-Control: nocache
+X-Content-Type-Options: nosniff
+x-amzn-Remapped-Date: Fri, 06 Oct 2023 08:43:50 GMT
+Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+X-Frame-Options: DENY
+Referrer-Policy: same-origin
+Server: Unspecified
+x-amzn-RequestId: 67a0f28b-0f1b-4e60-bbad-bfd06071a350
+Vary: Origin
+X-Cache: Error from cloudfront
+Via: 1.1 3b6aeed32abe8c5c8407517517c3a734.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BOM54-P2
+X-Amz-Cf-Id: azk1bnsSi_lE7dceh_8lQ5AJ4d962Kq4fSvMLMbPpJI2lexmIeKcYg==
+Age: 1
+
+{
+    "error": true,
+    "errors": [
+        {
+            "errorCode": "FAILED.TO.GET.DATA",
+            "errorMessage": "Data not found for given Input"
+        }
+    ],
+    "data": null
+}
+]]></system-out>
+  </testcase>
+  <testcase name="VerifyStatusCode" classname="api.test.CategoryTreeTest" time="0.442"/>
+</testsuite>

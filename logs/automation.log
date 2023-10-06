@@ -1,0 +1,123 @@
+11:32:50.670 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API******************
+11:32:54.006 [main] INFO  api.test.CategoryTreeTest {36} - *****************Called CategoryTree API******************
+11:32:54.045 [main] INFO  api.test.CategoryTreeTest {36} - ************Calling CategoryTree API with invalid Querry Parameter ***********
+11:32:54.389 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API withour Querry Parameter ******************
+11:32:54.642 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with invalid Querry Parameter to verfy the Error Code & Error Message ******************
+11:32:54.779 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+11:32:55.374 [main] INFO  api.test.CategoryTreeTest {36} - *****************Verified CategoryTree API Response ******************
+11:35:25.559 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API******************
+11:35:28.560 [main] INFO  api.test.CategoryTreeTest {36} - *****************Called CategoryTree API******************
+11:35:28.599 [main] INFO  api.test.CategoryTreeTest {36} - ************Calling CategoryTree API with invalid Querry Parameter ***********
+11:35:28.801 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API withour Querry Parameter ******************
+11:35:29.013 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with invalid Querry Parameter to verfy the Error Code & Error Message ******************
+11:35:29.161 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+11:35:29.590 [main] INFO  api.test.CategoryTreeTest {36} - *****************Verified CategoryTree API Response ******************
+11:39:53.200 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API******************
+11:39:56.177 [main] INFO  api.test.CategoryTreeTest {36} - *****************Called CategoryTree API******************
+11:39:56.215 [main] INFO  api.test.CategoryTreeTest {36} - ************Calling CategoryTree API with invalid Querry Parameter ***********
+11:39:56.464 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API withour Querry Parameter ******************
+11:39:56.722 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with invalid Querry Parameter to verfy the Error Code & Error Message ******************
+11:39:56.906 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+11:39:57.248 [main] INFO  api.test.CategoryTreeTest {36} - *****************Verified CategoryTree API Response ******************
+11:42:02.947 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API******************
+11:42:05.783 [main] INFO  api.test.CategoryTreeTest {36} - *****************Called CategoryTree API******************
+11:42:05.830 [main] INFO  api.test.CategoryTreeTest {36} - ************Calling CategoryTree API with invalid Querry Parameter ***********
+11:42:06.073 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API withour Querry Parameter ******************
+11:42:06.254 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with invalid Querry Parameter to verfy the Error Code & Error Message ******************
+11:42:06.389 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+11:42:06.721 [main] INFO  api.test.CategoryTreeTest {36} - *****************Verified CategoryTree API Response ******************
+14:45:45.452 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API******************
+14:46:21.895 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API******************
+14:46:58.036 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API withour Querry Parameter ******************
+14:47:11.538 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API******************
+14:47:13.040 [main] INFO  api.test.CategoryTreeTest {36} - ************Calling CategoryTree API with invalid Querry Parameter ***********
+14:47:13.064 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API withour Querry Parameter ******************
+14:47:13.086 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with invalid Querry Parameter to verfy the Error Code & Error Message ******************
+14:47:13.153 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+14:47:53.875 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API******************
+14:47:56.681 [main] INFO  api.test.CategoryTreeTest {36} - *****************Called CategoryTree API******************
+14:48:08.378 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API******************
+14:48:18.034 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API******************
+14:48:20.563 [main] INFO  api.test.CategoryTreeTest {36} - *****************Called CategoryTree API******************
+14:48:34.385 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API******************
+14:50:08.679 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API******************
+14:52:00.913 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API******************
+14:53:33.151 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API******************
+14:54:44.114 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+14:54:46.831 [main] INFO  api.test.CategoryTreeTest {36} - *****************Verified CategoryTree API Response ******************
+14:54:55.994 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+14:55:05.712 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+14:55:07.831 [main] INFO  api.test.CategoryTreeTest {36} - *****************Verified CategoryTree API Response ******************
+14:56:07.022 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API******************
+14:57:12.936 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API******************
+14:57:15.943 [main] INFO  api.test.CategoryTreeTest {36} - *****************Called CategoryTree API******************
+14:58:45.941 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API******************
+14:58:49.987 [main] INFO  api.test.CategoryTreeTest {36} - *****************Called CategoryTree API******************
+14:58:50.017 [main] INFO  api.test.CategoryTreeTest {36} - ************Calling CategoryTree API with invalid Querry Parameter ***********
+14:58:50.378 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API withour Querry Parameter ******************
+14:58:50.637 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with invalid Querry Parameter to verfy the Error Code & Error Message ******************
+14:58:50.806 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+14:58:51.334 [main] INFO  api.test.CategoryTreeTest {36} - *****************Verified CategoryTree API Response ******************
+15:13:11.719 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API******************
+15:13:15.170 [main] INFO  api.test.CategoryTreeTest {36} - *****************Called CategoryTree API******************
+15:13:55.779 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+15:13:58.313 [main] INFO  api.test.CategoryTreeTest {36} - *****************Verified CategoryTree API Response ******************
+15:14:01.586 [main] INFO  api.test.CategoryTreeTest {36} - ************Calling CategoryTree API with invalid Querry Parameter ***********
+15:16:15.302 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API withour Querry Parameter ******************
+15:16:41.963 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API******************
+15:16:44.447 [main] INFO  api.test.CategoryTreeTest {36} - *****************Called CategoryTree API******************
+15:16:44.484 [main] INFO  api.test.CategoryTreeTest {36} - ************Calling CategoryTree API with invalid Querry Parameter ***********
+15:16:44.717 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API withour Querry Parameter ******************
+15:16:44.879 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with invalid Querry Parameter to verfy the Error Code & Error Message ******************
+15:16:45.052 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+15:16:45.515 [main] INFO  api.test.CategoryTreeTest {36} - *****************Verified CategoryTree API Response ******************
+15:17:08.727 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API withour Querry Parameter ******************
+16:53:00.927 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API******************
+16:53:04.061 [main] INFO  api.test.CategoryTreeTest {36} - *****************Called CategoryTree API******************
+16:53:04.114 [main] INFO  api.test.CategoryTreeTest {36} - ************Calling CategoryTree API with invalid Querry Parameter ***********
+16:53:04.770 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API withour Querry Parameter ******************
+16:53:05.260 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with invalid Querry Parameter to verfy the Error Code & Error Message ******************
+16:53:05.846 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+16:53:07.027 [main] INFO  api.test.CategoryTreeTest {36} - *****************Verified CategoryTree API Response ******************
+11:04:59.809 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API******************
+11:05:02.755 [main] INFO  api.test.CategoryTreeTest {36} - *****************Called CategoryTree API******************
+11:05:02.787 [main] INFO  api.test.CategoryTreeTest {36} - ************Calling CategoryTree API with invalid Querry Parameter ***********
+11:05:03.159 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API withour Querry Parameter ******************
+11:05:03.451 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with invalid Querry Parameter to verfy the Error Code & Error Message ******************
+11:05:03.780 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+11:05:04.306 [main] INFO  api.test.CategoryTreeTest {36} - *****************Verified CategoryTree API Response ******************
+11:08:16.259 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API******************
+11:08:18.915 [main] INFO  api.test.CategoryTreeTest {36} - *****************Called CategoryTree API******************
+11:08:18.965 [main] INFO  api.test.CategoryTreeTest {36} - ************Calling CategoryTree API with invalid Querry Parameter ***********
+11:08:19.390 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API withour Querry Parameter ******************
+11:08:19.778 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with invalid Querry Parameter to verfy the Error Code & Error Message ******************
+11:08:20.177 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+11:08:20.770 [main] INFO  api.test.CategoryTreeTest {36} - *****************Verified CategoryTree API Response ******************
+12:26:46.056 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API******************
+12:26:48.979 [main] INFO  api.test.CategoryTreeTest {36} - *****************Called CategoryTree API******************
+12:26:49.038 [main] INFO  api.test.CategoryTreeTest {36} - ************Calling CategoryTree API with invalid Querry Parameter ***********
+12:26:49.442 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API withour Querry Parameter ******************
+12:26:49.693 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with invalid Querry Parameter to verfy the Error Code & Error Message ******************
+12:26:50.864 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+12:26:51.312 [main] INFO  api.test.CategoryTreeTest {36} - *****************Verified CategoryTree API Response ******************
+14:07:41.784 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API******************
+14:07:44.716 [main] INFO  api.test.CategoryTreeTest {36} - *****************Called CategoryTree API******************
+14:07:44.738 [main] INFO  api.test.CategoryTreeTest {36} - ************Calling CategoryTree API with invalid Querry Parameter ***********
+14:07:44.974 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API withour Querry Parameter ******************
+14:07:45.196 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with invalid Querry Parameter to verfy the Error Code & Error Message ******************
+14:07:45.386 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+14:07:45.920 [main] INFO  api.test.CategoryTreeTest {36} - *****************Verified CategoryTree API Response ******************
+14:13:48.104 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API******************
+14:13:50.645 [main] INFO  api.test.CategoryTreeTest {36} - *****************Called CategoryTree API******************
+14:13:50.678 [main] INFO  api.test.CategoryTreeTest {36} - ************Calling CategoryTree API with invalid Querry Parameter ***********
+14:13:50.932 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API withour Querry Parameter ******************
+14:13:51.132 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with invalid Querry Parameter to verfy the Error Code & Error Message ******************
+14:13:51.380 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+14:13:51.820 [main] INFO  api.test.CategoryTreeTest {36} - *****************Verified CategoryTree API Response ******************
+15:40:05.405 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API******************
+15:40:08.668 [main] INFO  api.test.CategoryTreeTest {36} - *****************Called CategoryTree API******************
+15:40:08.708 [main] INFO  api.test.CategoryTreeTest {36} - ************Calling CategoryTree API with invalid Querry Parameter ***********
+15:40:09.096 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API withour Querry Parameter ******************
+15:40:09.418 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with invalid Querry Parameter to verfy the Error Code & Error Message ******************
+15:40:09.710 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+15:40:10.171 [main] INFO  api.test.CategoryTreeTest {36} - *****************Verified CategoryTree API Response ******************

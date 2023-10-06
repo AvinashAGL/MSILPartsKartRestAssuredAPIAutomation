@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Microservice_API_Suite" duration-ms="5662" started-at="2023-10-06T15:40:04 IST" finished-at="2023-10-06T15:40:10 IST">
+    <groups>
+    </groups>
+    <test name="CategortTreeTest" duration-ms="5662" started-at="2023-10-06T15:40:04 IST" finished-at="2023-10-06T15:40:10 IST">
+      <class name="api.test.CategoryTreeTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:api.test.CategoryTreeTest@6121c9d6]" name="setup" is-config="true" duration-ms="543" started-at="2023-10-06T15:40:04 IST" finished-at="2023-10-06T15:40:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Verify()[pri:0, instance:api.test.CategoryTreeTest@6121c9d6]" name="Verify" duration-ms="3277" started-at="2023-10-06T15:40:05 IST" finished-at="2023-10-06T15:40:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify -->
+        <test-method status="PASS" signature="VerifyCategoryTreeWithInvalidQueryParameter()[pri:0, instance:api.test.CategoryTreeTest@6121c9d6]" name="VerifyCategoryTreeWithInvalidQueryParameter" duration-ms="391" started-at="2023-10-06T15:40:08 IST" finished-at="2023-10-06T15:40:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCategoryTreeWithInvalidQueryParameter -->
+        <test-method status="PASS" signature="VerifyCategoryTreeWithoutQueryParameter()[pri:0, instance:api.test.CategoryTreeTest@6121c9d6]" name="VerifyCategoryTreeWithoutQueryParameter" duration-ms="317" started-at="2023-10-06T15:40:09 IST" finished-at="2023-10-06T15:40:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCategoryTreeWithoutQueryParameter -->
+        <test-method status="PASS" signature="VerifyErrorCodeAndErrorMessageWithInvalidQueryParameter()[pri:0, instance:api.test.CategoryTreeTest@6121c9d6]" name="VerifyErrorCodeAndErrorMessageWithInvalidQueryParameter" duration-ms="290" started-at="2023-10-06T15:40:09 IST" finished-at="2023-10-06T15:40:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyErrorCodeAndErrorMessageWithInvalidQueryParameter -->
+        <test-method status="PASS" signature="VerifyStatusCode()[pri:0, instance:api.test.CategoryTreeTest@6121c9d6]" name="VerifyStatusCode" duration-ms="462" started-at="2023-10-06T15:40:09 IST" finished-at="2023-10-06T15:40:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyStatusCode -->
+      </class> <!-- api.test.CategoryTreeTest -->
+    </test> <!-- CategortTreeTest -->
+  </suite> <!-- Microservice_API_Suite -->
+</testng-results>
