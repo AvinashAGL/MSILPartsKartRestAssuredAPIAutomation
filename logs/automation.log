@@ -121,3 +121,234 @@
 15:40:09.418 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with invalid Querry Parameter to verfy the Error Code & Error Message ******************
 15:40:09.710 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
 15:40:10.171 [main] INFO  api.test.CategoryTreeTest {36} - *****************Verified CategoryTree API Response ******************
+20:07:57.857 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with invalid Querry Parameter to verfy the Error Code & Error Message ******************
+20:30:26.262 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API withour Querry Parameter ******************
+20:31:31.448 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API withour Querry Parameter ******************
+20:32:23.856 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with invalid Querry Parameter to verfy the Error Code & Error Message ******************
+20:34:38.470 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API withour Querry Parameter ******************
+20:36:43.889 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API withour Querry Parameter ******************
+20:40:06.252 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API withour Querry Parameter ******************
+20:40:47.931 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API withour Querry Parameter ******************
+16:12:45.531 [main] INFO  api.test.CategoryTreeTest {36} - ************Calling CategoryTree API with invalid Querry Parameter ***********
+16:15:38.592 [main] INFO  api.test.CategoryTreeTest {36} - ************Calling CategoryTree API with invalid Querry Parameter ***********
+16:16:43.789 [main] INFO  api.test.CategoryTreeTest {36} - ************Calling CategoryTree API with invalid Querry Parameter ***********
+16:18:31.400 [main] INFO  api.test.CategoryTreeTest {36} - ************Calling CategoryTree API with invalid Querry Parameter ***********
+16:21:37.617 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with invalid Querry Parameter to verfy the Error Code & Error Message ******************
+16:24:53.330 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with invalid Querry Parameter to verfy the Error Code & Error Message ******************
+16:27:38.911 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API withour Querry Parameter ******************
+17:50:28.294 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API withour Querry Parameter ******************
+17:53:18.776 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API withour Querry Parameter ******************
+17:53:21.092 [main] INFO  api.test.CategoryTreeTest {36} - ************Calling CategoryTree API with invalid Querry Parameter ***********
+17:53:21.604 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API withour Querry Parameter ******************
+17:53:23.013 [main] INFO  api.test.CategoryTreeTest {36} - ************Calling CategoryTree API with invalid Querry Parameter ***********
+17:53:23.446 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with invalid Querry Parameter to verfy the Error Code & Error Message ******************
+17:53:23.806 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with invalid Querry Parameter to verfy the Error Code & Error Message ******************
+17:53:26.155 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+17:53:26.907 [main] INFO  api.test.CategoryTreeTest {36} - *****************Verified CategoryTree API Response ******************
+18:01:02.491 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API withour Querry Parameter ******************
+18:02:44.013 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with invalid Querry Parameter to verfy the Error Code & Error Message ******************
+18:03:36.847 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API withour Querry Parameter ******************
+18:03:40.068 [main] INFO  api.test.CategoryTreeTest {36} - ************Calling CategoryTree API with invalid Querry Parameter ***********
+18:03:40.890 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API withour Querry Parameter ******************
+18:03:41.429 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API withour Querry Parameter ******************
+18:03:42.092 [main] INFO  api.test.CategoryTreeTest {36} - ************Calling CategoryTree API with invalid Querry Parameter ***********
+18:03:42.551 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with invalid Querry Parameter to verfy the Error Code & Error Message ******************
+18:03:43.061 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with invalid Querry Parameter to verfy the Error Code & Error Message ******************
+18:03:43.530 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with invalid Querry Parameter to verfy the Error Code & Error Message ******************
+18:03:43.867 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+18:03:45.103 [main] INFO  api.test.CategoryTreeTest {36} - *****************Verified CategoryTree API Response ******************
+18:16:51.268 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API content-type with valid data ******************
+18:16:53.979 [main] INFO  api.test.CategoryTreeTest {36} - *****************Verified CategoryTree API content type ******************
+18:30:52.928 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+18:30:55.602 [main] INFO  api.test.CategoryTreeTest {36} - *****************Verified CategoryTree API Response ******************
+18:31:15.075 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API withour Querry Parameter ******************
+18:31:18.044 [main] INFO  api.test.CategoryTreeTest {36} - ************Calling CategoryTree API with invalid Querry Parameter ***********
+18:31:19.264 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API withour Querry Parameter ******************
+18:31:19.775 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API withour Querry Parameter ******************
+18:31:20.361 [main] INFO  api.test.CategoryTreeTest {36} - ************Calling CategoryTree API with invalid Querry Parameter ***********
+18:31:20.734 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API content-type with valid data ******************
+18:31:21.646 [main] INFO  api.test.CategoryTreeTest {36} - *****************Verified CategoryTree API content type ******************
+18:31:21.658 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with invalid Querry Parameter to verfy the Error Code & Error Message ******************
+18:31:22.132 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with invalid Querry Parameter to verfy the Error Code & Error Message ******************
+18:31:22.522 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with invalid Querry Parameter to verfy the Error Code & Error Message ******************
+18:31:22.883 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+18:31:23.588 [main] INFO  api.test.CategoryTreeTest {36} - *****************Verified CategoryTree API Response ******************
+14:17:41.581 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+14:17:44.257 [main] INFO  api.test.CategoryTreeTest {36} - *****************Verified CategoryTree API Response ******************
+16:16:23.953 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+16:16:27.873 [main] INFO  api.test.CategoryTreeTest {36} - *****************Verified CategoryTree API Response ******************
+16:25:05.306 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API withour Querry Parameter ******************
+16:25:13.580 [main] INFO  api.test.CategoryTreeTest {36} - ************Calling CategoryTree API with invalid Querry Parameter ***********
+16:25:17.948 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API withour Querry Parameter ******************
+16:25:18.911 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API withour Querry Parameter ******************
+16:25:19.542 [main] INFO  api.test.CategoryTreeTest {36} - ************Calling CategoryTree API with invalid Querry Parameter ***********
+16:25:19.897 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API content-type with valid data ******************
+16:25:20.578 [main] INFO  api.test.CategoryTreeTest {36} - *****************Verified CategoryTree API content type ******************
+16:25:20.589 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with invalid Querry Parameter to verfy the Error Code & Error Message ******************
+16:25:20.950 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with invalid Querry Parameter to verfy the Error Code & Error Message ******************
+16:25:21.428 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with invalid Querry Parameter to verfy the Error Code & Error Message ******************
+16:25:21.753 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+16:25:22.392 [main] INFO  api.test.CategoryTreeTest {36} - *****************Verified CategoryTree API Response ******************
+16:25:22.407 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+16:25:23.034 [main] INFO  api.test.CategoryTreeTest {36} - *****************Verified CategoryTree API Response ******************
+21:25:49.157 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+21:25:52.345 [main] INFO  api.test.CategoryTreeTest {36} - *****************Verified CategoryTree API Response ******************
+21:59:33.822 [main] INFO  api.test.CompatibleCar {36} - *****************Calling CompatibleCar API with valid data ******************
+21:59:37.349 [main] INFO  api.test.CompatibleCar {36} - *****************Verified CategoryTree API Response ******************
+22:06:29.809 [main] INFO  api.test.CompatibleCar {36} - *****************Calling CompatibleCar API with valid data ******************
+22:06:32.524 [main] INFO  api.test.CompatibleCar {36} - *****************Verified CategoryTree API Response ******************
+22:14:08.374 [main] INFO  api.test.CompatibleCar {36} - *****************Calling CompatibleCar API with valid data ******************
+22:14:12.412 [main] INFO  api.test.CompatibleCar {36} - *****************Verified CategoryTree API Response ******************
+22:23:28.595 [main] INFO  api.test.CompatibleCar {36} - *****************Calling CompatibleCar API with valid data ******************
+22:24:13.203 [main] INFO  api.test.CompatibleCar {36} - *****************Calling CompatibleCar API with valid data ******************
+22:24:57.282 [main] INFO  api.test.CompatibleCar {36} - *****************Calling CompatibleCar API with valid data ******************
+22:25:44.081 [main] INFO  api.test.CompatibleCar {36} - *****************Calling CompatibleCar API with valid data ******************
+07:45:53.511 [main] INFO  api.test.CompatibleCar {36} - *****************Calling CompatibleCar API with valid data ******************
+07:45:57.655 [main] INFO  api.test.CompatibleCar {36} - *****************Verified CategoryTree API Response ******************
+07:46:44.652 [main] INFO  api.test.CompatibleCar {36} - *****************Calling CompatibleCar API with valid data ******************
+07:46:47.008 [main] INFO  api.test.CompatibleCar {36} - *****************Verified CategoryTree API Response ******************
+20:50:20.672 [main] INFO  api.test.CompatibleCar {36} - *****************Calling CompatibleCar API with valid data ******************
+20:50:26.103 [main] INFO  api.test.CompatibleCar {36} - *****************Verified CategoryTree API Response ******************
+15:04:01.905 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API withour Querry Parameter ******************
+15:04:46.914 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API withour Querry Parameter ******************
+15:06:30.185 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API withour Querry Parameter ******************
+15:10:21.328 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API withour Querry Parameter ******************
+15:12:00.426 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API withour Querry Parameter ******************
+15:12:15.860 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API withour Querry Parameter ******************
+15:16:04.865 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API withour Querry Parameter ******************
+15:16:17.390 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API withour Querry Parameter ******************
+15:20:33.954 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API withour Querry Parameter ******************
+15:21:29.504 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API to validate API headers ******************
+21:48:44.996 [main] INFO  api.test.PartCompatibilityTest {36} - *****************Calling CompatibleCar API with valid data ******************
+21:52:28.263 [main] INFO  api.test.PartCompatibilityTest {36} - *****************Calling CompatibleCar API with valid data ******************
+21:54:58.040 [main] INFO  api.test.PartCompatibilityTest {36} - *****************Calling CompatibleCar API with valid data ******************
+21:56:45.460 [main] INFO  api.test.CompatibleCar {36} - *****************Calling CompatibleCar API with valid data ******************
+21:59:08.935 [main] INFO  api.test.CompatibleCar {36} - *****************Calling CompatibleCar API with valid data ******************
+12:21:47.845 [main] INFO  api.test.CompatibleCar {36} - *****************Calling CompatibleCar API with valid data ******************
+12:21:51.388 [main] INFO  api.test.CompatibleCar {36} - *****************Verified CategoryTree API Response ******************
+12:22:16.153 [main] INFO  api.test.PartCompatibilityTest {36} - *****************Calling CompatibleCar API with valid data ******************
+12:22:18.579 [main] INFO  api.test.PartCompatibilityTest {36} - *****************Verified CategoryTree API Response ******************
+12:33:50.235 [main] INFO  api.test.PartCompatibilityTest {36} - *****************Calling CompatibleCar API with valid data ******************
+12:33:53.250 [main] INFO  api.test.PartCompatibilityTest {36} - *****************Verified CategoryTree API Response ******************
+12:37:26.374 [main] INFO  api.test.PartCompatibilityTest {36} - *****************Calling PartCompatibility API with valid data ******************
+12:37:29.233 [main] INFO  api.test.PartCompatibilityTest {36} - Validating PartCompatibility API Response code with valid data
+12:37:29.234 [main] INFO  api.test.PartCompatibilityTest {36} - 200
+12:58:10.086 [main] INFO  api.test.PartCompatibilityTest {36} - *****************Calling PartCompatibility API with valid data ******************
+12:58:13.280 [main] INFO  api.test.PartCompatibilityTest {36} - Validating PartCompatibility API Response code with valid data
+12:58:13.281 [main] INFO  api.test.PartCompatibilityTest {36} - 400
+12:58:33.580 [main] INFO  api.test.PartCompatibilityTest {36} - *****************Calling PartCompatibility API with valid data ******************
+12:58:35.799 [main] INFO  api.test.PartCompatibilityTest {36} - Validating PartCompatibility API Response code with valid data
+12:58:35.799 [main] INFO  api.test.PartCompatibilityTest {36} - 400
+13:00:40.813 [main] INFO  api.test.PartCompatibilityTest {36} - *****************Calling PartCompatibility API with valid data ******************
+13:00:43.154 [main] INFO  api.test.PartCompatibilityTest {36} - Validating PartCompatibility API Response code with valid data
+13:00:43.155 [main] INFO  api.test.PartCompatibilityTest {36} - 400
+13:03:33.249 [main] INFO  api.test.PartCompatibilityTest {36} - *****************Calling PartCompatibility API with valid data ******************
+13:03:35.813 [main] INFO  api.test.PartCompatibilityTest {36} - Validating PartCompatibility API Response code with valid data
+13:03:35.814 [main] INFO  api.test.PartCompatibilityTest {36} - 400
+13:08:23.194 [main] INFO  api.test.PartCompatibilityTest {36} - *****************Calling PartCompatibility API with valid data ******************
+13:08:26.400 [main] INFO  api.test.PartCompatibilityTest {36} - Validating PartCompatibility API Response code with valid data
+13:08:26.401 [main] INFO  api.test.PartCompatibilityTest {36} - 400
+13:08:28.959 [main] INFO  api.test.PartCompatibilityTest {36} - *****************Calling PartCompatibility API with valid data ******************
+13:08:31.614 [main] INFO  api.test.PartCompatibilityTest {36} - Validating PartCompatibility API Response code with valid data
+13:08:31.615 [main] INFO  api.test.PartCompatibilityTest {36} - 200
+13:08:55.095 [main] INFO  api.test.PartCompatibilityTest {36} - *****************Calling PartCompatibility API with valid data ******************
+13:08:57.323 [main] INFO  api.test.PartCompatibilityTest {36} - Validating PartCompatibility API Response code with valid data
+13:08:57.413 [main] INFO  api.test.PartCompatibilityTest {36} - 200
+13:18:20.261 [main] INFO  api.test.PartCompatibilityTest {36} - *****************Calling PartCompatibility API with valid data ******************
+13:18:24.010 [main] INFO  api.test.PartCompatibilityTest {36} - Validating PartCompatibility API Response code with valid data
+13:18:24.111 [main] INFO  api.test.PartCompatibilityTest {36} - 200
+13:19:18.007 [main] INFO  api.test.PartCompatibilityTest {36} - *****************Calling PartCompatibility API with valid data ******************
+13:19:20.258 [main] INFO  api.test.PartCompatibilityTest {36} - Validating PartCompatibility API Response code with valid data
+13:19:20.368 [main] INFO  api.test.PartCompatibilityTest {36} - 200
+13:20:09.554 [main] INFO  api.test.PartCompatibilityTest {36} - *****************Calling PartCompatibility API with valid data ******************
+13:20:11.870 [main] INFO  api.test.PartCompatibilityTest {36} - Validating PartCompatibility API Response code with valid data
+13:20:11.962 [main] INFO  api.test.PartCompatibilityTest {36} - 200
+21:36:12.917 [main] INFO  api.test.PartCompatibilityTest {36} - *****************Calling PartCompatibility API with valid data ******************
+21:36:15.417 [main] INFO  api.test.PartCompatibilityTest {36} - Validating PartCompatibility API Response code with valid data
+21:36:15.525 [main] INFO  api.test.PartCompatibilityTest {36} - 200
+21:39:27.145 [main] INFO  api.test.PartCompatibilityTest {36} - *****************Calling PartCompatibility API with valid data ******************
+21:39:30.178 [main] INFO  api.test.PartCompatibilityTest {36} - Validating PartCompatibility API Response code with valid data
+21:39:30.279 [main] INFO  api.test.PartCompatibilityTest {36} - 200
+21:39:54.404 [main] INFO  api.test.PartCompatibilityTest {36} - *****************Calling PartCompatibility API with valid data ******************
+21:39:56.518 [main] INFO  api.test.PartCompatibilityTest {36} - Validating PartCompatibility API Response code with valid data
+21:39:56.616 [main] INFO  api.test.PartCompatibilityTest {36} - 200
+21:40:35.100 [main] INFO  api.test.PartCompatibilityTest {36} - *****************Calling PartCompatibility API with valid data ******************
+21:40:37.419 [main] INFO  api.test.PartCompatibilityTest {36} - Validating PartCompatibility API Response code with valid data
+21:40:37.508 [main] INFO  api.test.PartCompatibilityTest {36} - 200
+21:42:53.291 [main] INFO  api.test.PartCompatibilityTest {36} - *****************Calling PartCompatibility API with valid data ******************
+21:42:56.443 [main] INFO  api.test.PartCompatibilityTest {36} - Validating PartCompatibility API Response code with valid data
+21:42:56.549 [main] INFO  api.test.PartCompatibilityTest {36} - 200
+21:43:13.921 [main] INFO  api.test.PartCompatibilityTest {36} - *****************Calling PartCompatibility API with valid data ******************
+21:43:16.141 [main] INFO  api.test.PartCompatibilityTest {36} - Validating PartCompatibility API Response code with valid data
+21:43:16.238 [main] INFO  api.test.PartCompatibilityTest {36} - 200
+21:43:17.344 [main] INFO  api.test.PartCompatibilityTest {36} - *****************Calling PartCompatibility API with valid data ******************
+21:43:18.213 [main] INFO  api.test.PartCompatibilityTest {36} - Validating PartCompatibility API Response code with valid data
+21:43:18.218 [main] INFO  api.test.PartCompatibilityTest {36} - 200
+21:43:18.252 [main] INFO  api.test.PartCompatibilityTest {36} - *****************Calling PartCompatibility API with valid data ******************
+21:43:18.729 [main] INFO  api.test.PartCompatibilityTest {36} - Validating PartCompatibility API Response code with valid data
+21:43:18.736 [main] INFO  api.test.PartCompatibilityTest {36} - 200
+21:43:18.772 [main] INFO  api.test.PartCompatibilityTest {36} - *****************Calling PartCompatibility API with valid data ******************
+21:43:19.333 [main] INFO  api.test.PartCompatibilityTest {36} - Validating PartCompatibility API Response code with valid data
+21:43:19.338 [main] INFO  api.test.PartCompatibilityTest {36} - 200
+21:43:19.372 [main] INFO  api.test.PartCompatibilityTest {36} - *****************Calling PartCompatibility API with valid data ******************
+21:43:19.787 [main] INFO  api.test.PartCompatibilityTest {36} - Validating PartCompatibility API Response code with valid data
+21:43:19.790 [main] INFO  api.test.PartCompatibilityTest {36} - 200
+21:43:19.821 [main] INFO  api.test.PartCompatibilityTest {36} - *****************Calling PartCompatibility API with valid data ******************
+21:43:20.296 [main] INFO  api.test.PartCompatibilityTest {36} - Validating PartCompatibility API Response code with valid data
+21:43:20.299 [main] INFO  api.test.PartCompatibilityTest {36} - 200
+21:43:20.319 [main] INFO  api.test.PartCompatibilityTest {36} - *****************Calling PartCompatibility API with valid data ******************
+21:43:20.931 [main] INFO  api.test.PartCompatibilityTest {36} - Validating PartCompatibility API Response code with valid data
+21:43:20.932 [main] INFO  api.test.PartCompatibilityTest {36} - 400
+21:43:20.941 [main] INFO  api.test.PartCompatibilityTest {36} - *****************Calling PartCompatibility API with valid data ******************
+21:43:21.818 [main] INFO  api.test.PartCompatibilityTest {36} - Validating PartCompatibility API Response code with valid data
+21:43:21.819 [main] INFO  api.test.PartCompatibilityTest {36} - 400
+21:43:21.827 [main] INFO  api.test.PartCompatibilityTest {36} - *****************Calling PartCompatibility API with valid data ******************
+21:43:22.404 [main] INFO  api.test.PartCompatibilityTest {36} - Validating PartCompatibility API Response code with valid data
+21:43:22.405 [main] INFO  api.test.PartCompatibilityTest {36} - 400
+21:46:49.397 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+21:47:41.473 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+21:51:12.744 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+21:53:32.149 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+22:00:11.221 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+22:03:55.746 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+22:06:54.807 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+20:30:07.126 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+20:45:21.499 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+20:51:02.025 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+20:57:47.130 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+20:58:12.382 [main] INFO  api.test.CategoryTreeTest {36} - *****************Verified CategoryTree API Response ******************
+21:00:02.370 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+21:05:18.304 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+21:06:54.205 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+21:08:07.838 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+21:08:35.887 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+21:09:32.713 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+21:12:54.248 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+21:13:34.477 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+21:40:18.620 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+21:47:12.955 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+21:52:43.611 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+22:03:00.538 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+22:03:28.341 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+22:04:20.633 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+07:42:58.863 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+13:53:08.284 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+13:53:13.492 [main] INFO  api.test.CategoryTreeTest {36} - *****************Verified CategoryTree API Response ******************
+13:53:53.723 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+13:53:56.596 [main] INFO  api.test.CategoryTreeTest {36} - *****************Verified CategoryTree API Response ******************
+13:10:38.459 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API withour Querry Parameter ******************
+13:11:08.572 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API content-type with valid data ******************
+13:11:11.042 [main] INFO  api.test.CategoryTreeTest {36} - *****************Verified CategoryTree API content type ******************
+13:11:57.397 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API content-type with valid data ******************
+13:12:00.196 [main] INFO  api.test.CategoryTreeTest {36} - *****************Verified CategoryTree API content type ******************
+17:54:13.306 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+11:42:12.180 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+11:43:44.488 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+11:44:48.614 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+11:46:55.486 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+11:48:24.931 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+11:49:52.304 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+11:51:40.870 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+11:52:31.096 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+12:18:52.273 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************
+12:22:26.538 [main] INFO  api.test.CategoryTreeTest {36} - *****************Calling CategoryTree API with valid data ******************

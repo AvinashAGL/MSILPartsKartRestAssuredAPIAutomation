@@ -1,0 +1,9 @@
+{
+    "catgCd": [
+        "M"
+    ],
+    "pageNo": 123,
+    "pageSize": 10,
+    "sortField": "price",
+    "sortOrder": "asc"
+}

@@ -1,0 +1,127 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "error": {
+      "type": "boolean"
+    },
+    "errors": {	
+    },
+    "data": {
+      "type": "object",
+      "properties": {
+        "TOTAL_PAGES": {
+          "type": "number"
+        },
+        "TOTAL_RECORDS": {
+          "type": "number"
+        },
+        "CURRENT_PAGE_NO": {
+          "type": "number"
+        },
+        "PRODUCT_LIST": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "THUMBNAIL_IMAGE_URL": {
+                "type": "string"
+              },
+              "PART_NAME": {
+                "type": "string"
+              },
+              "PART_NUM": {
+                "type": "string"
+              },
+              "PART_MRP": {
+                "type": "number"
+              },
+              "NON_DISCOUNTED_PRICE": {
+                "type": "number"
+              },
+              "DISCOUNT_PERCENTAGE": {
+                "type": "number"
+              },
+              "CATG_TYPE": {
+                "type": "string"
+              },
+              "UNIT": {
+                "type": "string"
+              },
+              "QTY": {
+                "type": "number"
+              },
+              "UNIT_RATE": {
+                "type": "number"
+              },
+              "ADDRESS": {
+                "type": "string"
+              },
+              "SALES_EFF_DATE": {
+                "type": "string"
+              },
+              "ROOT_PART_NUM": {
+                "type": "string"
+              },
+              "L1_CODE": {
+                "type": "string"
+              },
+              "L1_DESC": {
+                "type": "string"
+              },
+              "L2_CODE": {
+                "type": "string"
+              },
+              "L2_DESC": {
+                "type": "string"
+              },
+              "L3_CODE": {
+                "type": "string"
+              },
+              "L3_DESC": {
+                "type": "string"
+              },
+              "OUT_OF_STOCK": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "THUMBNAIL_IMAGE_URL",
+              "PART_NAME",
+              "PART_NUM",
+              "PART_MRP",
+              "NON_DISCOUNTED_PRICE",
+              "DISCOUNT_PERCENTAGE",
+              "CATG_TYPE",
+              "UNIT",
+              "QTY",
+              "UNIT_RATE",
+              "ADDRESS",
+              "SALES_EFF_DATE",
+              "ROOT_PART_NUM",
+              "L1_CODE",
+              "L1_DESC",
+              "L2_CODE",
+              "L2_DESC",
+              "L3_CODE",
+              "L3_DESC",
+              "OUT_OF_STOCK"
+            ]
+          }
+        }
+      },
+      "required": [
+        "TOTAL_PAGES",
+        "TOTAL_RECORDS",
+        "CURRENT_PAGE_NO",
+        "PRODUCT_LIST"
+      ]
+    }
+  },
+  "required": [
+    "error",
+    "errors",
+    "data"
+  ]
+}
