@@ -7,7 +7,7 @@ import java.util.ResourceBundle;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 
-public class microserviceEndpoints2 {
+public class CategoryTreeEndpoint {
 
 	// Method for getting URL's from properties file
 	static ResourceBundle getUrl() {

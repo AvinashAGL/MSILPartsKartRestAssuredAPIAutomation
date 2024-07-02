@@ -81,7 +81,6 @@ public class PartCompatibilityEndpoint {
 				given()
 				.header("User-Agent",getUrl().getString("user_agent"))
 				.header("x-api-key",getUrl().getString("x_api_key"))
-				.queryParam("regNum", "HR26EQ5606")
 				.when()
 				.get(getUrl().getString("partcompatibility"));
 				return response;

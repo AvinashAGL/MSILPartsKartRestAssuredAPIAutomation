@@ -2,56 +2,57 @@ package api.test;
 
 import org.testng.annotations.Test;
 
+import api.endpoint.CategoryTreeEndpoint;
 import java.io.File;
 
 import org.testng.Assert;
 
-import api.base.config;
-import api.endpoint.microserviceEndpoints2;
 import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.response.Response;
 
-public class CategoryTreeTest extends config {
+
+public class CategoryTreeTest {
+	
 
 	@Test()
 	public void VerifyStatusCodewithValid() {
-		logger.info("*****************Calling CategoryTree API with valid data ******************");
-		Response response = microserviceEndpoints2.getCategoryTree();
+//		logger.info("*****************Calling CategoryTree API with valid data ******************");
+		Response response = CategoryTreeEndpoint.getCategoryTree();
 		Assert.assertEquals(response.getStatusCode(), 200);
 		response.then().log().body();
-		logger.info("*****************Verified CategoryTree API Response ******************");
+//		logger.info("*****************Verified CategoryTree API Response ******************");
 	}
 
 	@Test()
 	public void VerifyResponseTimewithValidData() {
-		logger.info("*****************Calling CategoryTree API with valid data ******************");
-		Response response = microserviceEndpoints2.getCategoryTree();
+//		logger.info("*****************Calling CategoryTree API with valid data ******************");
+		Response response = CategoryTreeEndpoint.getCategoryTree();
 		System.out.println(response.getTime());
 		Assert.assertTrue(response.getTime() < 2000);
-		logger.info("*****************Verified CategoryTree API Response ******************");
+//		logger.info("*****************Verified CategoryTree API Response ******************");
 	}
 
 	@Test()
 	public void VerifyContentTypewithValid() {
-		logger.info("*****************Calling CategoryTree API content-type with valid data ******************");
-		Response response = microserviceEndpoints2.getCategoryTree();
+//		logger.info("*****************Calling CategoryTree API content-type with valid data ******************");
+		Response response = CategoryTreeEndpoint.getCategoryTree();
 		Assert.assertEquals(response.contentType(), "application/json");
 //		response.then().log().all();
-		logger.info("*****************Verified CategoryTree API content type ******************");
+//		logger.info("*****************Verified CategoryTree API content type ******************");
 	}
 
 	@Test()
 	public void VerifyCategoryTreeStatusCodeWithInvalidQueryParameter() {
-		logger.info("************Calling CategoryTree API with invalid Querry Parameter ***********");
-		Response response = microserviceEndpoints2.getCategoryTreeInvalidQuery();
+//		logger.info("************Calling CategoryTree API with invalid Querry Parameter ***********");
+		Response response = CategoryTreeEndpoint.getCategoryTreeInvalidQuery();
 		response.then().log().all();
 		Assert.assertEquals(response.getStatusCode(), 404);
 	}
 
 	@Test()
 	public void VerifyCategoryTree_Data_WithInvalidQueryParameter() {
-		logger.info("************Calling CategoryTree API with invalid Querry Parameter ***********");
-		Response response = microserviceEndpoints2.getCategoryTreeInvalidQuery();
+//		logger.info("************Calling CategoryTree API with invalid Querry Parameter ***********");
+		Response response = CategoryTreeEndpoint.getCategoryTreeInvalidQuery();
 		response.then().log().all();
 		String data = response.jsonPath().getString("data");
 		System.out.println(data);
@@ -62,9 +63,8 @@ public class CategoryTreeTest extends config {
 	@Test()
 	public void VerifyResponseCodeWithInvalidQueryParameter() {
 
-		logger.info(
-				"*****************Calling CategoryTree API with invalid Querry Parameter to verfy the Error Code & Error Message ******************");
-		Response response = microserviceEndpoints2.getCategoryTreeInvalidQuery();
+//		logger.info("*****************Calling CategoryTree API with invalid Querry Parameter to verfy the Error Code & Error Message ******************");
+		Response response = CategoryTreeEndpoint.getCategoryTreeInvalidQuery();
 		response.then().log().all();
 		Assert.assertEquals(response.getStatusCode(), 404);
 
@@ -73,9 +73,8 @@ public class CategoryTreeTest extends config {
 	@Test()
 	public void VerifyErrorCodeAndErrorMessageWithInvalidQueryParameter() {
 
-		logger.info(
-				"*****************Calling CategoryTree API with invalid Querry Parameter to verfy the Error Code & Error Message ******************");
-		Response response = microserviceEndpoints2.getCategoryTreeInvalidQuery();
+//		logger.info("*****************Calling CategoryTree API with invalid Querry Parameter to verfy the Error Code & Error Message ******************");
+		Response response = CategoryTreeEndpoint.getCategoryTreeInvalidQuery();
 		response.then().log().all();
 
 		String errCode = response.jsonPath().get("errors[0].errorCode").toString();
@@ -88,9 +87,8 @@ public class CategoryTreeTest extends config {
 	@Test()
 	public void VerifyDataWithInvalidQueryParameter() {
 
-		logger.info(
-				"*****************Calling CategoryTree API with invalid Querry Parameter to verfy the Error Code & Error Message ******************");
-		Response response = microserviceEndpoints2.getCategoryTreeInvalidQuery();
+//		logger.info("*****************Calling CategoryTree API with invalid Querry Parameter to verfy the Error Code & Error Message ******************");
+		Response response = CategoryTreeEndpoint.getCategoryTreeInvalidQuery();
 		response.then().log().all();
 		String data = response.jsonPath().getString("data");
 		System.out.println(data);
@@ -100,16 +98,16 @@ public class CategoryTreeTest extends config {
 	// ------------Calling API with without querry parameter
 	@Test()
 	public void VerifyCategoryTreeStatusCodeWithoutQueryParameter() {
-		logger.info("*****************Calling CategoryTree API withour Querry Parameter ******************");
-		Response response = microserviceEndpoints2.getCategoryTreeWithoutQuery();
+//		logger.info("*****************Calling CategoryTree API withour Querry Parameter ******************");
+		Response response = CategoryTreeEndpoint.getCategoryTreeWithoutQuery();
 		response.then().log().all();
 		Assert.assertEquals(response.getStatusCode(), 400);
 	}
 
 	@Test()
 	public void VerifyCategoryTreeWithoutQueryParameter() {
-		logger.info("*****************Calling CategoryTree API withour Querry Parameter ******************");
-		Response response = microserviceEndpoints2.getCategoryTreeWithoutQuery();
+//		logger.info("*****************Calling CategoryTree API withour Querry Parameter ******************");
+		Response response = CategoryTreeEndpoint.getCategoryTreeWithoutQuery();
 		response.then().log().all();
 		String errCode = response.jsonPath().get("errors[0].errorCode").toString();
 		String errMsg = response.jsonPath().getString("errors[0].errorMessage").toString();
@@ -121,8 +119,8 @@ public class CategoryTreeTest extends config {
 
 	@Test()
 	public void VerifyCategoryTreeDataWithoutQueryParameter() {
-		logger.info("*****************Calling CategoryTree API withour Querry Parameter ******************");
-		Response response = microserviceEndpoints2.getCategoryTreeWithoutQuery();
+//		logger.info("*****************Calling CategoryTree API withour Querry Parameter ******************");
+		Response response = CategoryTreeEndpoint.getCategoryTreeWithoutQuery();
 		response.then().log().all();
 		String data = response.jsonPath().getString("data");
 		System.out.println(data);
@@ -131,8 +129,8 @@ public class CategoryTreeTest extends config {
 
 	@Test()
 	public void VerifyCategoryTreeHeaders() {
-		logger.info("*****************Calling CategoryTree API to validate API headers ******************");
-		Response response = microserviceEndpoints2.getCategoryTree();
+//		logger.info("*****************Calling CategoryTree API to validate API headers ******************");
+		Response response = CategoryTreeEndpoint.getCategoryTree();
 		Assert.assertEquals(response.getHeader("Content-Type"), "application/json");
 		Assert.assertEquals(response.getHeader("Connection"), "keep-alive");
 		Assert.assertEquals(response.getHeader("X-XSS-Protection"), "1; mode=block");
@@ -144,16 +142,16 @@ public class CategoryTreeTest extends config {
 		Assert.assertEquals(response.getHeader("Server"), "Unspecified");
 		Assert.assertEquals(response.getHeader("Vary"), "Origin");
 		Assert.assertEquals(response.getHeader("X-Cache"), "Miss from cloudfront");
-		Assert.assertEquals(response.getHeader("X-Amz-Cf-Pop"), "DEL54-P6");
+		Assert.assertEquals(response.getHeader("X-Amz-Cf-Pop"), "DEL54-P7");
 	}
 
 	@Test()
 	public void VerifyCateforyTreeSchema() {
-		logger.info("*****************Calling CategoryTree API with valid data ******************");
-		Response response = microserviceEndpoints2.getCategoryTree();
+//		logger.info("*****************Calling CategoryTree API with valid data ******************");
+		Response response = CategoryTreeEndpoint.getCategoryTree();
 //		response.then().log().body();
 		File file=new File("/Users/avinashmaurya/eclipse-workspace/MSILPartsKartRestAssuredAPIAutomation/src/test/resources/Schema/SchemaCategoryTree.json");
 		response.then().assertThat().body(JsonSchemaValidator.matchesJsonSchema(file));
-		logger.info("*****************Verified CategoryTree API Response ******************");
+//		logger.info("*****************Verified CategoryTree API Response ******************");
 	}
 }

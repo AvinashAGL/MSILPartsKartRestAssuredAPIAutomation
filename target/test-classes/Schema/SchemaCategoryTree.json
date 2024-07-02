@@ -1,107 +1,105 @@
 {
-  "$id": "root",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "type": "object",
   "properties": {
     "error": {
-      "type": "boolean",
-      "default": false,
-      "examples": [
-        true,
-        false
-      ]
+      "type": "boolean"
     },
     "errors": {
-      "type": "null"
+      "type": ["array"]
     },
     "data": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "properties": {
-          "categoryDetailList": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "CATG_DESC": {
-                  "type": "string",
-                  "default": "AC Filter",
-                  "examples": [
-                    "AC Filter"
-                  ]
-                },
-                "CATG_CODE": {
-                  "type": "string",
-                  "default": "ACF",
-                  "examples": [
-                    "ACF"
-                  ]
-                },
-                "SUBCATG_DETAILS_LIST": {
-                  "type": "array",
-                  "items": {
-                    "type": "object",
-                    "properties": {
-                      "SUBCATG_DESC": {
-                        "type": "string",
-                        "default": "Filter & Perfume Kit",
-                        "examples": [
-                          "Filter & Perfume Kit"
-                        ]
-                      },
-                      "SUBCATG_CODE": {
-                        "type": "string",
-                        "default": "ACPK",
-                        "examples": [
-                          "ACPK"
-                        ]
-                      }
-                    },
-                    "required": [
-                      "SUBCATG_DESC",
-                      "SUBCATG_CODE"
-                    ],
-                    "additionalProperties": false
-                  }
-                }
+      "type": "object",
+      "properties": {
+        "TOTAL_PAGES": {
+          "type": "integer"
+        },
+        "TOTAL_RECORDS": {
+          "type": "integer"
+        },
+        "CURRENT_PAGE_NO": {
+          "type": "integer"
+        },
+        "PRODUCT_LIST": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "THUMBNAIL_IMAGE_URL": {
+                "type": ["string"]
               },
-              "required": [
-                "CATG_DESC",
-                "CATG_CODE",
-                "SUBCATG_DETAILS_LIST"
-              ],
-              "additionalProperties": false
-            }
-          },
-          "PARENT_CATG_CODE": {
-            "type": "string",
-            "default": "CAR",
-            "examples": [
-              "CAR"
-            ]
-          },
-          "PARENT_CATG_DESC": {
-            "type": "string",
-            "default": "Car Care",
-            "examples": [
-              "Car Care"
+              "PART_NAME": {
+                "type": "string"
+              },
+              "PART_NUM": {
+                "type": "string"
+              },
+              "PART_MRP": {
+                "type": "number"
+              },
+              "NON_DISCOUNTED_PRICE": {
+                "type": "number"
+              },
+              "DISCOUNT_PERCENTAGE": {
+                "type": "number"
+              },
+              "CATG_TYPE": {
+                "type": "string"
+              },
+              "UNIT": {
+                "type": "string"
+              },
+              "QTY": {
+                "type": "integer"
+              },
+              "UNIT_RATE": {
+                "type": "number"
+              },
+              "ADDRESS": {
+                "type": "string"
+              },
+              "SALES_EFF_DATE": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "ROOT_PART_NUM": {
+                "type": "string"
+              },
+              "L1_CODE": {
+                "type": "string"
+              },
+              "L1_DESC": {
+                "type": "string"
+              },
+              "L2_CODE": {
+                "type": "string"
+              },
+              "L2_DESC": {
+                "type": "string"
+              },
+              "L3_CODE": {
+                "type": "string"
+              },
+              "L3_DESC": {
+                "type": "string"
+              },
+              "OUT_OF_STOCK": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "PART_NAME",
+              "PART_NUM",
+              "PART_MRP",
+              "UNIT",
+              "QTY",
+              "UNIT_RATE"
             ]
           }
-        },
-        "required": [
-          "categoryDetailList",
-          "PARENT_CATG_CODE",
-          "PARENT_CATG_DESC"
-        ],
-        "additionalProperties": false
-      }
+        }
+      },
+      "required": ["TOTAL_PAGES", "TOTAL_RECORDS", "CURRENT_PAGE_NO", "PRODUCT_LIST"]
     }
   },
-  "required": [
-    "error",
-    "errors",
-    "data"
-  ],
-  "additionalProperties": false
+  "required": ["error", "errors", "data"]
 }

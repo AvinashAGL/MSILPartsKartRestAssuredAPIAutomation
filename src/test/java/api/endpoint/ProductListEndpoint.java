@@ -8,7 +8,8 @@ import java.util.ResourceBundle;
 import io.restassured.response.Response;
 
 public class ProductListEndpoint {//Method for getting URL's from properties file
-	static ResourceBundle getUrl() {
+	
+	public static ResourceBundle getUrl() {
 		ResourceBundle bundle=ResourceBundle.getBundle("routes");   //Load the properties file
 		return bundle;
 		
@@ -16,7 +17,7 @@ public class ProductListEndpoint {//Method for getting URL's from properties fil
 	
 	
 
-	public static Response getProductList() throws FileNotFoundException {
+	public static Response postProductList() throws FileNotFoundException {
 		
 		 String jsonPayload = "{\n" +
 	                "    \"catgCd\": [\n" +
@@ -37,7 +38,7 @@ public class ProductListEndpoint {//Method for getting URL's from properties fil
 		return response;
 	}
 	
-	public static Response getProductListwith2Valid_catCd() throws FileNotFoundException {
+	public static Response postProductListwith2Valid_catCd() throws FileNotFoundException {
 		 String jsonPayload = "{\n" +
 	                "    \"catgCd\": [\n" +
 	                "        \"M\",\n" +
@@ -57,7 +58,7 @@ public class ProductListEndpoint {//Method for getting URL's from properties fil
 		return response;
 		
 	}
-	public static Response getProductListwith3Valid_catCd() throws FileNotFoundException {
+	public static Response postProductListwith3Valid_catCd() throws FileNotFoundException {
 		 String jsonPayload = "{\n" +
 	                "    \"catgCd\": [\n" +
 	                "        \"M\",\n" +
@@ -80,7 +81,7 @@ public class ProductListEndpoint {//Method for getting URL's from properties fil
 		
 	}
 
-	public static Response getProductListwithValid_categories_categoryL1() throws FileNotFoundException {
+	public static Response postProductListwithValid_categories_categoryL1() throws FileNotFoundException {
 		 String jsonPayload = "{\n" +
 	                "    \"categories\": [\n" +
 	                "        {\n" +
@@ -108,7 +109,7 @@ public class ProductListEndpoint {//Method for getting URL's from properties fil
 		.post(getUrl().getString("SearchProductList"));
 		return response;
 	}
-	public static Response getProductListwithValid_categories_categoryL1categoryL2() throws FileNotFoundException {
+	public static Response postProductListwithValid_categories_categoryL1categoryL2() throws FileNotFoundException {
 		 String jsonPayload = "{\n" +
 	                "    \"categories\": [\n" +
 	                "        {\n" +
@@ -138,7 +139,7 @@ public class ProductListEndpoint {//Method for getting URL's from properties fil
 		
 	}
 
-	public static Response getProductListwithValid_categories_categoryL1categoryL2categoryL3() throws FileNotFoundException {
+	public static Response postProductListwithValid_categories_categoryL1categoryL2categoryL3() throws FileNotFoundException {
 		 String jsonPayload = "{\n" +
 	                "    \"categories\": [\n" +
 	                "        {\n" +
@@ -168,7 +169,7 @@ public class ProductListEndpoint {//Method for getting URL's from properties fil
 		
 	}
 
-	public static Response getProductListwithValid_1Model() throws FileNotFoundException {
+	public static Response postProductListwithValid_1Model() throws FileNotFoundException {
 		 String jsonPayload = "{\n" +
 	                "    \"catgCd\": [\n" +
 	                "        \"M\",\n" +
@@ -201,7 +202,7 @@ public class ProductListEndpoint {//Method for getting URL's from properties fil
 		
 	}
 
-	public static Response getProductListwithValid_1Model1var() throws FileNotFoundException {
+	public static Response postProductListwithValid_1Model1var() throws FileNotFoundException {
 		 String jsonPayload = "{\n" +
 	                "    \"catgCd\": [\n" +
 	                "        \"M\",\n" +
@@ -233,7 +234,7 @@ public class ProductListEndpoint {//Method for getting URL's from properties fil
 		return response;
 		
 	}
-	public static Response getProductListwithValid_1Model2var() throws FileNotFoundException {
+	public static Response postProductListwithValid_1Model2var() throws FileNotFoundException {
 		 String jsonPayload = "{\n" +
 	                "    \"catgCd\": [\n" +
 	                "        \"M\",\n" +
@@ -275,7 +276,7 @@ public class ProductListEndpoint {//Method for getting URL's from properties fil
 		
 	}
 
-	public static Response getProductListwithValid_2model() throws FileNotFoundException {
+	public static Response postProductListwithValid_2model() throws FileNotFoundException {
 		 String jsonPayload = "{\n" +
 	                "    \"catgCd\": [\n" +
 	                "        \"M\",\n" +
@@ -317,7 +318,7 @@ public class ProductListEndpoint {//Method for getting URL's from properties fil
 		
 	}
 
-	public static Response getProductListwithValid_2model1var() throws FileNotFoundException {
+	public static Response postProductListwithValid_2model1var() throws FileNotFoundException {
 		 String jsonPayload = "{\n" +
 	                "    \"catgCd\": [\n" +
 	                "        \"M\",\n" +
@@ -359,7 +360,7 @@ public class ProductListEndpoint {//Method for getting URL's from properties fil
 		
 	}
 
-	public static Response getProductListwithValid_2model2var() throws FileNotFoundException {
+	public static Response postProductListwithValid_2model2var() throws FileNotFoundException {
 		 String jsonPayload = "{\n" +
 	                "    \"catgCd\": [\n" +
 	                "        \"M\",\n" +
@@ -402,7 +403,7 @@ public class ProductListEndpoint {//Method for getting URL's from properties fil
 	}
 	
 	
-	public static Response getProductListwithvalidRegNo() throws FileNotFoundException {
+	public static Response postProductListwithvalidRegNo() throws FileNotFoundException {
 		 String jsonPayload = "{\n" +
 	                "    \"catgCd\": [\n" +
 	                "        \"M\"\n" +
@@ -423,7 +424,7 @@ public class ProductListEndpoint {//Method for getting URL's from properties fil
 		
 	}
 
-	public static Response getProductListwithvalidVinNo() throws FileNotFoundException {
+	public static Response postProductListwithvalidVinNo() throws FileNotFoundException {
 		 String jsonPayload = "{\n" +
 	                "    \"catgCd\": [\n" +
 	                "        \"M\"\n" +
@@ -444,7 +445,7 @@ public class ProductListEndpoint {//Method for getting URL's from properties fil
 		
 	}
 	
-	public static Response getProductListwithvalidPartNo() throws FileNotFoundException {
+	public static Response postProductListwithvalidPartNo() throws FileNotFoundException {
 		 String jsonPayload = "{\n" +
 	                "    \"catgCd\": [\n" +
 	                "        \"M\"\n" +
@@ -465,7 +466,7 @@ public class ProductListEndpoint {//Method for getting URL's from properties fil
 		
 	}
 	
-	public static Response getProductListwithvalidCategoryL1AndModel() throws FileNotFoundException {
+	public static Response postProductListwithvalidCategoryL1AndModel() throws FileNotFoundException {
 		 String jsonPayload = "{\n" +
 	                "    \"catgCd\": [\n" +
 	                "        \"M\"\n" +
@@ -501,7 +502,7 @@ public class ProductListEndpoint {//Method for getting URL's from properties fil
 		return response;
 		
 	}
-	public static Response getProductListwithvalidCategoryL1L2AndModel() throws FileNotFoundException {
+	public static Response postProductListwithvalidCategoryL1L2AndModel() throws FileNotFoundException {
 		 String jsonPayload = "{\n" +
 	                "    \"catgCd\": [\n" +
 	                "        \"M\"\n" +
@@ -538,7 +539,7 @@ public class ProductListEndpoint {//Method for getting URL's from properties fil
 		
 	}
 	
-	public static Response getProductListPagination() throws FileNotFoundException {
+	public static Response postProductListPagination() throws FileNotFoundException {
 		
 		 String jsonPayload = "{\n" +
 	                "    \"catgCd\": [\n" +
@@ -559,7 +560,7 @@ public class ProductListEndpoint {//Method for getting URL's from properties fil
 		return response;
 	}
 	
-	public static Response getProductListSortHighTIOLow() throws FileNotFoundException {
+	public static Response postProductListSortHighTIOLow() throws FileNotFoundException {
 		
 		 String jsonPayload = "{\n" +
 	                "    \"catgCd\": [\n" +
@@ -582,7 +583,7 @@ public class ProductListEndpoint {//Method for getting URL's from properties fil
 		return response;
 	}
 
-	public static Response getProductListSortLowToHigh() throws FileNotFoundException {
+	public static Response postProductListSortLowToHigh() throws FileNotFoundException {
 		
 		 String jsonPayload = "{\n" +
 	                "    \"catgCd\": [\n" +
@@ -605,7 +606,7 @@ public class ProductListEndpoint {//Method for getting URL's from properties fil
 		return response;
 	}
 
-	public static Response getProductListSortNew() throws FileNotFoundException {
+	public static Response postProductListSortNew() throws FileNotFoundException {
 		
 		 String jsonPayload = "{\n" +
 	                "    \"catgCd\": [\n" +
@@ -628,7 +629,7 @@ public class ProductListEndpoint {//Method for getting URL's from properties fil
 		return response;
 	}
 
-	public static Response getProductListSortName() throws FileNotFoundException {
+	public static Response postProductListSortName() throws FileNotFoundException {
 		
 		 String jsonPayload = "{\n" +
 	                "    \"catgCd\": [\n" +
@@ -653,7 +654,7 @@ public class ProductListEndpoint {//Method for getting URL's from properties fil
 	
 	/*			Negetive Cases			*/
 
-	public static Response getProductListInvalidcatCD() throws FileNotFoundException {
+	public static Response postProductListInvalidcatCD() throws FileNotFoundException {
 		
 		 String jsonPayload = "{\n" +
 	               "    \"catgCd\": [\n" +
@@ -673,7 +674,7 @@ public class ProductListEndpoint {//Method for getting URL's from properties fil
 		.post(getUrl().getString("SearchProductList"));
 		return response;
 	}
-	public static Response getProductListwith1Valid_catCd1Invalid_catCd() throws FileNotFoundException {
+	public static Response postProductListwith1Valid_catCd1Invalid_catCd() throws FileNotFoundException {
 		 String jsonPayload = "{\n" +
 	                "    \"catgCd\": [\n" +
 	                "        \"M\",\n" +
@@ -694,7 +695,7 @@ public class ProductListEndpoint {//Method for getting URL's from properties fil
 		
 	}
 
-	public static Response getProductListwithInvalid_CategoriesL1() throws FileNotFoundException {
+	public static Response postProductListwithInvalid_CategoriesL1() throws FileNotFoundException {
 		 String jsonPayload = "{\n" +
 	                "    \"categories\": [\n" +
 	                "        {\n" +
@@ -724,7 +725,7 @@ public class ProductListEndpoint {//Method for getting URL's from properties fil
 		
 	}
 	
-	public static Response getProductListwithInvalid_CategoriesL2() throws FileNotFoundException {
+	public static Response postProductListwithInvalid_CategoriesL2() throws FileNotFoundException {
 		 String jsonPayload = "{\n" +
 	                "    \"categories\": [\n" +
 	                "        {\n" +
@@ -754,7 +755,7 @@ public class ProductListEndpoint {//Method for getting URL's from properties fil
 		
 	}
 
-	public static Response getProductListwithInvalid_CategoriesL3() throws FileNotFoundException {
+	public static Response postProductListwithInvalid_CategoriesL3() throws FileNotFoundException {
 		 String jsonPayload = "{\n" +
 	                "    \"categories\": [\n" +
 	                "        {\n" +
@@ -783,7 +784,7 @@ public class ProductListEndpoint {//Method for getting URL's from properties fil
 		return response;
 	}
 
-	public static Response getProductListwithInvalid_modelCd() throws FileNotFoundException {
+	public static Response postProductListwithInvalid_modelCd() throws FileNotFoundException {
 		 String jsonPayload = "{\n" +
 	                "    \"catgCd\": [\n" +
 	                "        \"M\"\n" +
@@ -813,7 +814,7 @@ public class ProductListEndpoint {//Method for getting URL's from properties fil
 		return response;
 	}
 	
-	public static Response getProductListwithInvalid_variantCd() throws FileNotFoundException {
+	public static Response postProductListwithInvalid_variantCd() throws FileNotFoundException {
 		 String jsonPayload = "{\n" +
 	                "    \"catgCd\": [\n" +
 	                "        \"M\"\n" +
@@ -843,7 +844,7 @@ public class ProductListEndpoint {//Method for getting URL's from properties fil
 		return response;
 	}
 	
-	public static Response getProductListwithInvalid_FromYear() throws FileNotFoundException {
+	public static Response postProductListwithInvalid_FromYear() throws FileNotFoundException {
 		 String jsonPayload = "{\n" +
 	                "    \"catgCd\": [\n" +
 	                "        \"M\"\n" +
@@ -873,7 +874,7 @@ public class ProductListEndpoint {//Method for getting URL's from properties fil
 		return response;
 	}
 
-	public static Response getProductListwithInvalid_ToYear() throws FileNotFoundException {
+	public static Response postProductListwithInvalid_ToYear() throws FileNotFoundException {
 		 String jsonPayload = "{\n" +
 	                "    \"catgCd\": [\n" +
 	                "        \"M\"\n" +
@@ -903,7 +904,7 @@ public class ProductListEndpoint {//Method for getting URL's from properties fil
 		return response;
 	}
 
-	public static Response getProductListwithout_modelCd() throws FileNotFoundException {
+	public static Response postProductListwithout_modelCd() throws FileNotFoundException {
 		 String jsonPayload = "{\n" +
 	                "    \"catgCd\": [\n" +
 	                "        \"M\"\n" +
@@ -933,7 +934,7 @@ public class ProductListEndpoint {//Method for getting URL's from properties fil
 		return response;
 	}
 
-	public static Response getProductListwithout_fromYear() throws FileNotFoundException {
+	public static Response postProductListwithout_fromYear() throws FileNotFoundException {
 		 String jsonPayload = "{\n" +
 	                "    \"catgCd\": [\n" +
 	                "        \"M\"\n" +
@@ -963,7 +964,7 @@ public class ProductListEndpoint {//Method for getting URL's from properties fil
 		return response;
 	}
 
-	public static Response getProductListwithout_toYear() throws FileNotFoundException {
+	public static Response postProductListwithout_toYear() throws FileNotFoundException {
 		 String jsonPayload = "{\n" +
 	                "    \"catgCd\": [\n" +
 	                "        \"M\"\n" +
@@ -993,7 +994,26 @@ public class ProductListEndpoint {//Method for getting URL's from properties fil
 		return response;
 	}
 
-	
+	public static Response postProductListMessagewithvalidRegNo() throws FileNotFoundException {
+		 String jsonPayload = "{\n" +
+	                "    \"catgCd\": [\n" +
+	                "        \"M\"\n" +
+	                "    ],\n" +
+	                "    \"regNo\":\"KA51MK5026\",\n" +
+	                "    \"pageNo\":16,\n" +
+	                "    \"pageSize\":100\n" +
+	                "}";
+		Response response=
+		given()
+		.header("x-api-key",getUrl().getString("x_api_key"))
+		.header("User-Agent","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36")
+		.header("Content-Type",getUrl().getString("content_Type"))
+		.body(jsonPayload)
+		.when()
+		.post(getUrl().getString("SearchProductList"));
+		return response;
+		
+	}
 	
 	
 }

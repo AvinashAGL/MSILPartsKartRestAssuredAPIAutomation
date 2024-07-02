@@ -9,10 +9,58 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">4,402</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">12</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">9,595</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">api.test.SearchProductListTest</td><td><a href="#m0">verifySerchProductList_Data_With_InvalidCategoriesL1</a></td><td rowspan="1">1705655484308</td><td rowspan="1">4361</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">api.test.PartCompatibilityTest</td><td><a href="#m0">VerifyResponseHeaders</a></td><td rowspan="1">1719915673501</td><td rowspan="1">395</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="12">api.test.PartCompatibilityTest</td><td><a href="#m1">VerifyCompatibleflagWith_InvalidpartNum_ValidregNo</a></td><td rowspan="1">1719915664855</td><td rowspan="1">3382</td></tr><tr class="passedeven"><td><a href="#m2">VerifyCompatibleflagWith_ValidpartNum_InvalidregNo</a></td><td rowspan="1">1719915668245</td><td rowspan="1">331</td></tr><tr class="passedeven"><td><a href="#m3">VerifyCompatibleflagWith_ValidpartNum_ValidregNo</a></td><td rowspan="1">1719915668577</td><td rowspan="1">1352</td></tr><tr class="passedeven"><td><a href="#m4">VerifyErrorSatusWithValidData</a></td><td rowspan="1">1719915669934</td><td rowspan="1">371</td></tr><tr class="passedeven"><td><a href="#m5">VerifyErrorWithoutpartNumAndregNumParam</a></td><td rowspan="1">1719915670307</td><td rowspan="1">454</td></tr><tr class="passedeven"><td><a href="#m6">VerifyErrorWithoutpartNumParam</a></td><td rowspan="1">1719915670767</td><td rowspan="1">379</td></tr><tr class="passedeven"><td><a href="#m7">VerifyErrorWithoutregNumParam</a></td><td rowspan="1">1719915671150</td><td rowspan="1">308</td></tr><tr class="passedeven"><td><a href="#m8">VerifyErrorsSatusWithValidData</a></td><td rowspan="1">1719915671463</td><td rowspan="1">308</td></tr><tr class="passedeven"><td><a href="#m9">VerifyResponseCodeWithValidData</a></td><td rowspan="1">1719915671774</td><td rowspan="1">454</td></tr><tr class="passedeven"><td><a href="#m10">VerifyResponseCodeWithoutpartNumAndregNumParam</a></td><td rowspan="1">1719915672231</td><td rowspan="1">420</td></tr><tr class="passedeven"><td><a href="#m11">VerifyResponseCodeWithoutpartNumParam</a></td><td rowspan="1">1719915672653</td><td rowspan="1">444</td></tr><tr class="passedeven"><td><a href="#m12">VerifyResponseCodeWithoutregNumParam</a></td><td rowspan="1">1719915673100</td><td rowspan="1">395</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">api.test.SearchProductListTest#verifySerchProductList_Data_With_InvalidCategoriesL1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Default test</h2><h3 id="m0">api.test.PartCompatibilityTest#VerifyResponseHeaders</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [DEL54-P7] but found [MAA50-C2]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at api.test.PartCompatibilityTest.VerifyResponseHeaders(PartCompatibilityTest.java:174)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">api.test.PartCompatibilityTest#VerifyCompatibleflagWith_InvalidpartNum_ValidregNo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">api.test.PartCompatibilityTest#VerifyCompatibleflagWith_ValidpartNum_InvalidregNo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">api.test.PartCompatibilityTest#VerifyCompatibleflagWith_ValidpartNum_ValidregNo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">api.test.PartCompatibilityTest#VerifyErrorSatusWithValidData</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">api.test.PartCompatibilityTest#VerifyErrorWithoutpartNumAndregNumParam</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">api.test.PartCompatibilityTest#VerifyErrorWithoutpartNumParam</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">api.test.PartCompatibilityTest#VerifyErrorWithoutregNumParam</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">api.test.PartCompatibilityTest#VerifyErrorsSatusWithValidData</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">api.test.PartCompatibilityTest#VerifyResponseCodeWithValidData</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">api.test.PartCompatibilityTest#VerifyResponseCodeWithoutpartNumAndregNumParam</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">api.test.PartCompatibilityTest#VerifyResponseCodeWithoutpartNumParam</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">api.test.PartCompatibilityTest#VerifyResponseCodeWithoutregNumParam</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
