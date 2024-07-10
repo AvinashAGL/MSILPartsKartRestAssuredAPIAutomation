@@ -14,7 +14,7 @@ public class LoginWithMobNoEndpint {
 		return bundle;
 	}
 	
-	public static Response loginWithMobNoRespondeCode() {
+	public static Response loginWithMobNo_withValidData_RespondeCode() {
 		
 		 String requestBody = "{\n" +
 	                "  \"device_type\": \"Android\",\n" +
@@ -33,6 +33,23 @@ public class LoginWithMobNoEndpint {
 	        Response decryptResponse=  AES_Decrypt.decrypt(cleanResponse);
 	        
 		return decryptResponse;
+	}
+	
+	public static Response loginWithMobNo_withValidData_RespondeCode2() {
+		
+		 String requestBody = "{\n" +
+	                "  \"device_type\": \"Android\",\n" +
+	                "  \"mobile\": \"9911477739\"\n" +
+	                "}";
+		 Response response1 = given()
+				 	.header("Content-Type","application/json")
+				 	.header("device_id","otp")
+	                .body(requestBody)
+	                .when()
+	                .post("https://marutigenuineparts.in/api/v2/login");
+		 
+		
+		return response1;
 	}
 
 	public static Response loginWithInvalidMobNoRespondeCode() {
@@ -75,6 +92,23 @@ public class LoginWithMobNoEndpint {
 	        Response decryptResponse=  AES_Decrypt.decrypt(cleanResponse);
 	        
 		return decryptResponse;
+	}
+	
+	public static Response loginWith_MSPIN_RespondeCode2() {
+		
+		 String requestBody = "{\n" +
+	                "  \"device_type\": \"Android\",\n" +
+	                "  \"mspin\": \"979497\"\n" +
+	                "}";
+		 Response response1 = given()
+				 	.header("Content-Type","application/json")
+				 	.header("device_id","otp")
+	                .body(requestBody)
+	                .when()
+	                .post("https://marutigenuineparts.in/api/v2/login");
+		 
+	        
+		return response1;
 	}
 	
 	public static Response loginWithInvalidMSPIN() {

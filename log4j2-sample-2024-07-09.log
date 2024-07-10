@@ -1,0 +1,4 @@
+2024-07-09T13:48:17,045 [main] INFO  (PartCompatibilityTest.java:34) - *****************Calling PartCompatibility API with valid data ******************
+2024-07-09T13:48:18,939 [main] INFO  (PartCompatibilityTest.java:36) - Validating PartCompatibility API Response code with valid data
+2024-07-09T13:48:19,017 [main] INFO  (PartCompatibilityTest.java:38) - 200
+2024-07-09T13:48:19,021 [main] INFO  (PartCompatibilityTest.java:41) - 963

@@ -1,9 +1,18 @@
 package api.test;
 
 import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
 
 import api.endpoint.CategoryTreeEndpoint;
 import java.io.File;
+import java.util.concurrent.TimeUnit;
 
 import org.testng.Assert;
 
@@ -14,12 +23,23 @@ import io.restassured.response.Response;
 public class CategoryTreeTest {
 	
 
-	@Test()
+	@Test(groups = {"Response Code"})
 	public void VerifyStatusCodewithValid() {
 //		logger.info("*****************Calling CategoryTree API with valid data ******************");
 		Response response = CategoryTreeEndpoint.getCategoryTree();
-		Assert.assertEquals(response.getStatusCode(), 200);
+		AssertJUnit.assertEquals(response.getStatusCode(), 200);
 		response.then().log().body();
+//		logger.info("*****************Verified CategoryTree API Response ******************");
+	}
+	@Test(groups = {"Response Time"})
+	public void VerifyCategoryTree_ResponseTime() {
+//		logger.info("*****************Calling CategoryTree API with valid data ******************");
+		Response response = CategoryTreeEndpoint.getCategoryTree();
+		AssertJUnit.assertEquals(response.getStatusCode(), 200);
+		response.then().log().body();
+		long time = response.timeIn(TimeUnit.MILLISECONDS);
+		System.out.println("Time in milliseconds : " + time);
+		AssertJUnit.assertTrue(time < 3000);
 //		logger.info("*****************Verified CategoryTree API Response ******************");
 	}
 
@@ -28,7 +48,7 @@ public class CategoryTreeTest {
 //		logger.info("*****************Calling CategoryTree API with valid data ******************");
 		Response response = CategoryTreeEndpoint.getCategoryTree();
 		System.out.println(response.getTime());
-		Assert.assertTrue(response.getTime() < 2000);
+		AssertJUnit.assertTrue(response.getTime() < 2000);
 //		logger.info("*****************Verified CategoryTree API Response ******************");
 	}
 
@@ -36,7 +56,7 @@ public class CategoryTreeTest {
 	public void VerifyContentTypewithValid() {
 //		logger.info("*****************Calling CategoryTree API content-type with valid data ******************");
 		Response response = CategoryTreeEndpoint.getCategoryTree();
-		Assert.assertEquals(response.contentType(), "application/json");
+		AssertJUnit.assertEquals(response.contentType(), "application/json");
 //		response.then().log().all();
 //		logger.info("*****************Verified CategoryTree API content type ******************");
 	}
@@ -46,7 +66,7 @@ public class CategoryTreeTest {
 //		logger.info("************Calling CategoryTree API with invalid Querry Parameter ***********");
 		Response response = CategoryTreeEndpoint.getCategoryTreeInvalidQuery();
 		response.then().log().all();
-		Assert.assertEquals(response.getStatusCode(), 404);
+		AssertJUnit.assertEquals(response.getStatusCode(), 404);
 	}
 
 	@Test()
@@ -56,7 +76,7 @@ public class CategoryTreeTest {
 		response.then().log().all();
 		String data = response.jsonPath().getString("data");
 		System.out.println(data);
-		Assert.assertEquals(data, null);
+		AssertJUnit.assertEquals(data, null);
 	}
 
 	// ------------Calling API with invalid querry parameter
@@ -66,7 +86,7 @@ public class CategoryTreeTest {
 //		logger.info("*****************Calling CategoryTree API with invalid Querry Parameter to verfy the Error Code & Error Message ******************");
 		Response response = CategoryTreeEndpoint.getCategoryTreeInvalidQuery();
 		response.then().log().all();
-		Assert.assertEquals(response.getStatusCode(), 404);
+		AssertJUnit.assertEquals(response.getStatusCode(), 404);
 
 	}
 
@@ -80,8 +100,8 @@ public class CategoryTreeTest {
 		String errCode = response.jsonPath().get("errors[0].errorCode").toString();
 		String errMsg = response.jsonPath().getString("errors[0].errorMessage").toString();
 
-		Assert.assertEquals(errCode, "FAILED.TO.GET.DATA");
-		Assert.assertEquals(errMsg, "Data not found for given Input");
+		AssertJUnit.assertEquals(errCode, "FAILED.TO.GET.DATA");
+		AssertJUnit.assertEquals(errMsg, "Data not found for given Input");
 	}
 
 	@Test()
@@ -92,7 +112,7 @@ public class CategoryTreeTest {
 		response.then().log().all();
 		String data = response.jsonPath().getString("data");
 		System.out.println(data);
-		Assert.assertEquals(data, null);
+		AssertJUnit.assertEquals(data, null);
 	}
 
 	// ------------Calling API with without querry parameter
@@ -101,7 +121,7 @@ public class CategoryTreeTest {
 //		logger.info("*****************Calling CategoryTree API withour Querry Parameter ******************");
 		Response response = CategoryTreeEndpoint.getCategoryTreeWithoutQuery();
 		response.then().log().all();
-		Assert.assertEquals(response.getStatusCode(), 400);
+		AssertJUnit.assertEquals(response.getStatusCode(), 400);
 	}
 
 	@Test()
@@ -112,8 +132,8 @@ public class CategoryTreeTest {
 		String errCode = response.jsonPath().get("errors[0].errorCode").toString();
 		String errMsg = response.jsonPath().getString("errors[0].errorMessage").toString();
 
-		Assert.assertEquals(errCode, "All required values must be provided.");
-		Assert.assertEquals(errMsg,
+		AssertJUnit.assertEquals(errCode, "All required values must be provided.");
+		AssertJUnit.assertEquals(errMsg,
 				"Required request parameter 'mastApplicability' for method parameter type String is not present");
 	}
 
@@ -124,25 +144,25 @@ public class CategoryTreeTest {
 		response.then().log().all();
 		String data = response.jsonPath().getString("data");
 		System.out.println(data);
-		Assert.assertEquals(data, null);
+		AssertJUnit.assertEquals(data, null);
 	}
 
 	@Test()
 	public void VerifyCategoryTreeHeaders() {
 //		logger.info("*****************Calling CategoryTree API to validate API headers ******************");
 		Response response = CategoryTreeEndpoint.getCategoryTree();
-		Assert.assertEquals(response.getHeader("Content-Type"), "application/json");
-		Assert.assertEquals(response.getHeader("Connection"), "keep-alive");
-		Assert.assertEquals(response.getHeader("X-XSS-Protection"), "1; mode=block");
-		Assert.assertEquals(response.getHeader("Content-Security-Policy"), "default-src 'self' blob:; img-src 'self' blob:; script-src 'unsafe-eval' 'unsafe-inline' 'self' https://cf.msilcrm.co.in/* https://*.msilcrm.co.in/ https://crm-dev-static-website.s3.ap-south-1.amazonaws.com/uniagentDialerFunc.js;  font-src 'self' blob:; style-src 'self' 'unsafe-inline'; frame-src *; connect-src 'self' https://cf.msilcrm.co.in/ https://*.msilcrm.co.in/ https://*.cloudfront.net https://*.amazonaws.com https://www.preprod.marutisuzukisubscribe.com https://*.amazoncognito.com https://*.cf.marutisuzukisubscribe.com https://*.msilcrm.co.in https://msilcrm.co.in; blob:");
-		Assert.assertEquals(response.getHeader("x-amzn-Remapped-Connection"), "keep-alive");
-		Assert.assertEquals(response.getHeader("Strict-Transport-Security"), "max-age=63072000; includeSubdomains; preload");
-		Assert.assertEquals(response.getHeader("X-Frame-Options"), "DENY");
-		Assert.assertEquals(response.getHeader("Referrer-Policy"), "same-origin");
-		Assert.assertEquals(response.getHeader("Server"), "Unspecified");
-		Assert.assertEquals(response.getHeader("Vary"), "Origin");
-		Assert.assertEquals(response.getHeader("X-Cache"), "Miss from cloudfront");
-		Assert.assertEquals(response.getHeader("X-Amz-Cf-Pop"), "DEL54-P7");
+		AssertJUnit.assertEquals(response.getHeader("Content-Type"), "application/json");
+		AssertJUnit.assertEquals(response.getHeader("Connection"), "keep-alive");
+		AssertJUnit.assertEquals(response.getHeader("X-XSS-Protection"), "1; mode=block");
+		AssertJUnit.assertEquals(response.getHeader("Content-Security-Policy"), "default-src 'self' blob:; img-src 'self' blob:; script-src 'unsafe-eval' 'unsafe-inline' 'self' https://cf.msilcrm.co.in/* https://*.msilcrm.co.in/ https://crm-dev-static-website.s3.ap-south-1.amazonaws.com/uniagentDialerFunc.js;  font-src 'self' blob:; style-src 'self' 'unsafe-inline'; frame-src *; connect-src 'self' https://cf.msilcrm.co.in/ https://*.msilcrm.co.in/ https://*.cloudfront.net https://*.amazonaws.com https://www.preprod.marutisuzukisubscribe.com https://*.amazoncognito.com https://*.cf.marutisuzukisubscribe.com https://*.msilcrm.co.in https://msilcrm.co.in; blob:");
+		AssertJUnit.assertEquals(response.getHeader("x-amzn-Remapped-Connection"), "keep-alive");
+		AssertJUnit.assertEquals(response.getHeader("Strict-Transport-Security"), "max-age=63072000; includeSubdomains; preload");
+		AssertJUnit.assertEquals(response.getHeader("X-Frame-Options"), "DENY");
+		AssertJUnit.assertEquals(response.getHeader("Referrer-Policy"), "same-origin");
+		AssertJUnit.assertEquals(response.getHeader("Server"), "Unspecified");
+		AssertJUnit.assertEquals(response.getHeader("Vary"), "Origin");
+		AssertJUnit.assertEquals(response.getHeader("X-Cache"), "Miss from cloudfront");
+		AssertJUnit.assertEquals(response.getHeader("X-Amz-Cf-Pop"), "DEL54-P7");
 	}
 
 	@Test()

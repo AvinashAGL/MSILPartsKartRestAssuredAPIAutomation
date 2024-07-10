@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Parts Kart API Automation">
+  <test thread-count="5" name="Validate API Response Code">
+	  
+	   <groups>
+         <run>
+            <include name = "Response Code" />
+         </run>
+      </groups>
+
+    <classes>
+      <class name="api.test.GlobalSearch"/>
+      <class name="api.test.PartCompatibilityTest"/>
+      <class name="api.test.Authenticate_Validate_Otp"/>
+      <class name="api.test.StateMasterTest"/>
+      <class name="api.test.ProductDetailTest"/>
+      <class name="api.test.ModelTreeTest"/>
+      <class name="api.test.SelectParty"/>
+      <class name="api.test.SearchProductListTest"/>
+      <class name="api.test.CompatibleCar"/>
+      <class name="api.test.Authentication_Login"/>
+      <class name="api.test.CategoryTreeTest"/>
+      <class name="api.test.CityMaster"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

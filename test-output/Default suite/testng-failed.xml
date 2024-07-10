@@ -3,12 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="api.test.PartCompatibilityTest">
+      <class name="api.test.EnquiryHistoryTest">
         <methods>
-          <include name="setup"/>
-          <include name="VerifyResponseHeaders"/>
+          <include name="validateEnquiryHistoryErrorwithInvalidDealerMapCode"/>
         </methods>
-      </class> <!-- api.test.PartCompatibilityTest -->
+      </class> <!-- api.test.EnquiryHistoryTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

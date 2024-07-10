@@ -1,7 +1,16 @@
 package api.test;
 
 import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
 
+import java.util.concurrent.TimeUnit;
 
 import org.testng.Assert;
 
@@ -12,12 +21,21 @@ import io.restassured.response.Response;
 
 public class ModelTreeTest {
 	
-	@Test()
+	@Test(groups = {"Response Code"})
 	public void VerifyCategoryTreeStatusCodeWithValidData() {
 		Response response = ModelTreeEndpoint.getModelTree();
 		response.then().log().body();
 
-		Assert.assertEquals(response.getStatusCode(), 200);
+		AssertJUnit.assertEquals(response.getStatusCode(), 200);
+	}	
+	@Test(groups = {"Response Time"})
+	public void VerifyCategoryTreeResponseTime() {
+		Response response = ModelTreeEndpoint.getModelTree();
+		response.then().log().body();
+
+		AssertJUnit.assertEquals(response.getStatusCode(), 200);
+		long time=  response.timeIn(TimeUnit.MILLISECONDS);
+		AssertJUnit.assertTrue(time<3000);
 	}	
 
 	@Test()
@@ -26,7 +44,7 @@ public class ModelTreeTest {
 		response.then().log().body();
 
 		System.out.println(response.getTime());
-		Assert.assertTrue(response.getTime() < 3000);	
+		AssertJUnit.assertTrue(response.getTime() < 3000);	
 		}
 	
 	@Test()
@@ -37,8 +55,8 @@ public class ModelTreeTest {
 		boolean errStatus=response.jsonPath().getBoolean("error");
 		String errMsg=response.jsonPath().getString("errors");
 		
-		Assert.assertEquals(false, errStatus);
-		Assert.assertEquals(errMsg, null);
+		AssertJUnit.assertEquals(errStatus, false);
+		AssertJUnit.assertEquals(errMsg, null);
 	
 	}	
 

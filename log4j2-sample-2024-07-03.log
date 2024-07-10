@@ -1,0 +1,129 @@
+2024-07-03T15:28:28,045 [main] INFO  (PartCompatibilityTest.java:20) - *****************Calling PartCompatibility API with valid data ******************
+2024-07-03T15:28:30,386 [main] INFO  (PartCompatibilityTest.java:22) - Validating PartCompatibility API Response code with valid data
+2024-07-03T15:28:30,495 [main] INFO  (PartCompatibilityTest.java:24) - 200
+2024-07-03T15:28:38,785 [main] INFO  (PartCompatibilityTest.java:58) - *****************Calling PartCompatibility API with valid data ******************
+2024-07-03T15:28:40,609 [main] INFO  (PartCompatibilityTest.java:60) - Validating PartCompatibility API Response code with valid data
+2024-07-03T15:28:40,691 [main] INFO  (PartCompatibilityTest.java:62) - 200
+2024-07-03T15:28:41,453 [main] INFO  (PartCompatibilityTest.java:68) - *****************Calling PartCompatibility API with valid data ******************
+2024-07-03T15:28:41,706 [main] INFO  (PartCompatibilityTest.java:70) - Validating PartCompatibility API Response code with valid data
+2024-07-03T15:28:41,710 [main] INFO  (PartCompatibilityTest.java:72) - 200
+2024-07-03T15:28:41,790 [main] INFO  (PartCompatibilityTest.java:49) - *****************Calling PartCompatibility API with valid data ******************
+2024-07-03T15:28:41,999 [main] INFO  (PartCompatibilityTest.java:51) - Validating PartCompatibility API Response code with valid data
+2024-07-03T15:28:42,003 [main] INFO  (PartCompatibilityTest.java:53) - 200
+2024-07-03T15:28:42,062 [main] INFO  (PartCompatibilityTest.java:29) - *****************Calling PartCompatibility API with valid data ******************
+2024-07-03T15:28:42,270 [main] INFO  (PartCompatibilityTest.java:31) - Validating PartCompatibility API Response code with valid data
+2024-07-03T15:28:42,274 [main] INFO  (PartCompatibilityTest.java:33) - 200
+2024-07-03T15:28:42,309 [main] INFO  (PartCompatibilityTest.java:146) - *****************Calling PartCompatibility API with valid data ******************
+2024-07-03T15:28:42,491 [main] INFO  (PartCompatibilityTest.java:148) - Validating PartCompatibility API Response code with valid data
+2024-07-03T15:28:42,494 [main] INFO  (PartCompatibilityTest.java:150) - 400
+2024-07-03T15:28:42,671 [main] INFO  (PartCompatibilityTest.java:90) - *****************Calling PartCompatibility API with valid data ******************
+2024-07-03T15:28:42,852 [main] INFO  (PartCompatibilityTest.java:92) - Validating PartCompatibility API Response code with valid data
+2024-07-03T15:28:42,854 [main] INFO  (PartCompatibilityTest.java:94) - 400
+2024-07-03T15:28:42,924 [main] INFO  (PartCompatibilityTest.java:118) - *****************Calling PartCompatibility API with valid data ******************
+2024-07-03T15:28:43,119 [main] INFO  (PartCompatibilityTest.java:120) - Validating PartCompatibility API Response code with valid data
+2024-07-03T15:28:43,119 [main] INFO  (PartCompatibilityTest.java:122) - 400
+2024-07-03T15:28:43,181 [main] INFO  (PartCompatibilityTest.java:39) - *****************Calling PartCompatibility API with valid data ******************
+2024-07-03T15:28:43,356 [main] INFO  (PartCompatibilityTest.java:41) - Validating PartCompatibility API Response code with valid data
+2024-07-03T15:28:43,358 [main] INFO  (PartCompatibilityTest.java:43) - 200
+2024-07-03T15:28:43,384 [main] INFO  (PartCompatibilityTest.java:20) - *****************Calling PartCompatibility API with valid data ******************
+2024-07-03T15:28:43,564 [main] INFO  (PartCompatibilityTest.java:22) - Validating PartCompatibility API Response code with valid data
+2024-07-03T15:28:43,566 [main] INFO  (PartCompatibilityTest.java:24) - 200
+2024-07-03T15:28:43,569 [main] INFO  (PartCompatibilityTest.java:135) - *****************Calling PartCompatibility API with valid data ******************
+2024-07-03T15:28:43,790 [main] INFO  (PartCompatibilityTest.java:137) - Validating PartCompatibility API Response code with valid data
+2024-07-03T15:28:43,790 [main] INFO  (PartCompatibilityTest.java:139) - 400
+2024-07-03T15:28:43,802 [main] INFO  (PartCompatibilityTest.java:80) - *****************Calling PartCompatibility API with valid data ******************
+2024-07-03T15:28:43,993 [main] INFO  (PartCompatibilityTest.java:82) - Validating PartCompatibility API Response code with valid data
+2024-07-03T15:28:43,998 [main] INFO  (PartCompatibilityTest.java:84) - 400
+2024-07-03T15:28:44,007 [main] INFO  (PartCompatibilityTest.java:107) - *****************Calling PartCompatibility API with valid data ******************
+2024-07-03T15:28:44,185 [main] INFO  (PartCompatibilityTest.java:109) - Validating PartCompatibility API Response code with valid data
+2024-07-03T15:28:44,185 [main] INFO  (PartCompatibilityTest.java:111) - 400
+2024-07-03T15:28:44,189 [main] INFO  (PartCompatibilityTest.java:163) - *****************Calling PartCompatibility API with valid data ******************
+2024-07-03T15:28:44,394 [main] INFO  (PartCompatibilityTest.java:165) - Validating PartCompatibility API Response code with valid data
+2024-07-03T15:28:44,396 [main] INFO  (PartCompatibilityTest.java:167) - 200
+2024-07-03T15:31:47,756 [main] INFO  (PartCompatibilityTest.java:29) - *****************Calling PartCompatibility API with valid data ******************
+2024-07-03T15:31:50,227 [main] INFO  (PartCompatibilityTest.java:31) - Validating PartCompatibility API Response code with valid data
+2024-07-03T15:31:50,332 [main] INFO  (PartCompatibilityTest.java:33) - 200
+2024-07-03T15:35:27,952 [main] INFO  (PartCompatibilityTest.java:32) - *****************Calling PartCompatibility API with valid data ******************
+2024-07-03T15:35:30,495 [main] INFO  (PartCompatibilityTest.java:34) - Validating PartCompatibility API Response code with valid data
+2024-07-03T15:35:30,583 [main] INFO  (PartCompatibilityTest.java:36) - 200
+2024-07-03T15:35:30,588 [main] INFO  (PartCompatibilityTest.java:39) - 1604
+2024-07-03T15:42:43,524 [main] INFO  (PartCompatibilityTest.java:72) - *****************Calling PartCompatibility API with valid data ******************
+2024-07-03T15:42:45,678 [main] INFO  (PartCompatibilityTest.java:74) - Validating PartCompatibility API Response code with valid data
+2024-07-03T15:42:45,760 [main] INFO  (PartCompatibilityTest.java:76) - 200
+2024-07-03T15:42:46,524 [main] INFO  (PartCompatibilityTest.java:82) - *****************Calling PartCompatibility API with valid data ******************
+2024-07-03T15:42:46,764 [main] INFO  (PartCompatibilityTest.java:84) - Validating PartCompatibility API Response code with valid data
+2024-07-03T15:42:46,769 [main] INFO  (PartCompatibilityTest.java:86) - 200
+2024-07-03T15:42:46,862 [main] INFO  (PartCompatibilityTest.java:63) - *****************Calling PartCompatibility API with valid data ******************
+2024-07-03T15:42:47,035 [main] INFO  (PartCompatibilityTest.java:65) - Validating PartCompatibility API Response code with valid data
+2024-07-03T15:42:47,037 [main] INFO  (PartCompatibilityTest.java:67) - 200
+2024-07-03T15:42:47,068 [main] INFO  (PartCompatibilityTest.java:43) - *****************Calling PartCompatibility API with valid data ******************
+2024-07-03T15:42:47,255 [main] INFO  (PartCompatibilityTest.java:45) - Validating PartCompatibility API Response code with valid data
+2024-07-03T15:42:47,257 [main] INFO  (PartCompatibilityTest.java:47) - 200
+2024-07-03T15:42:47,288 [main] INFO  (PartCompatibilityTest.java:160) - *****************Calling PartCompatibility API with valid data ******************
+2024-07-03T15:42:47,521 [main] INFO  (PartCompatibilityTest.java:162) - Validating PartCompatibility API Response code with valid data
+2024-07-03T15:42:47,525 [main] INFO  (PartCompatibilityTest.java:164) - 400
+2024-07-03T15:42:47,732 [main] INFO  (PartCompatibilityTest.java:104) - *****************Calling PartCompatibility API with valid data ******************
+2024-07-03T15:42:47,960 [main] INFO  (PartCompatibilityTest.java:106) - Validating PartCompatibility API Response code with valid data
+2024-07-03T15:42:47,963 [main] INFO  (PartCompatibilityTest.java:108) - 400
+2024-07-03T15:42:48,035 [main] INFO  (PartCompatibilityTest.java:132) - *****************Calling PartCompatibility API with valid data ******************
+2024-07-03T15:42:48,199 [main] INFO  (PartCompatibilityTest.java:134) - Validating PartCompatibility API Response code with valid data
+2024-07-03T15:42:48,200 [main] INFO  (PartCompatibilityTest.java:136) - 400
+2024-07-03T15:42:48,252 [main] INFO  (PartCompatibilityTest.java:53) - *****************Calling PartCompatibility API with valid data ******************
+2024-07-03T15:42:48,451 [main] INFO  (PartCompatibilityTest.java:55) - Validating PartCompatibility API Response code with valid data
+2024-07-03T15:42:48,453 [main] INFO  (PartCompatibilityTest.java:57) - 200
+2024-07-03T15:42:48,489 [main] INFO  (PartCompatibilityTest.java:32) - *****************Calling PartCompatibility API with valid data ******************
+2024-07-03T15:42:48,662 [main] INFO  (PartCompatibilityTest.java:34) - Validating PartCompatibility API Response code with valid data
+2024-07-03T15:42:48,664 [main] INFO  (PartCompatibilityTest.java:36) - 200
+2024-07-03T15:42:48,683 [main] INFO  (PartCompatibilityTest.java:39) - 168
+2024-07-03T15:42:48,693 [main] INFO  (PartCompatibilityTest.java:23) - *****************Calling PartCompatibility API with valid data ******************
+2024-07-03T15:42:48,889 [main] INFO  (PartCompatibilityTest.java:25) - Validating PartCompatibility API Response code with valid data
+2024-07-03T15:42:48,894 [main] INFO  (PartCompatibilityTest.java:27) - 200
+2024-07-03T15:42:48,898 [main] INFO  (PartCompatibilityTest.java:149) - *****************Calling PartCompatibility API with valid data ******************
+2024-07-03T15:42:49,080 [main] INFO  (PartCompatibilityTest.java:151) - Validating PartCompatibility API Response code with valid data
+2024-07-03T15:42:49,081 [main] INFO  (PartCompatibilityTest.java:153) - 400
+2024-07-03T15:42:49,089 [main] INFO  (PartCompatibilityTest.java:94) - *****************Calling PartCompatibility API with valid data ******************
+2024-07-03T15:42:49,280 [main] INFO  (PartCompatibilityTest.java:96) - Validating PartCompatibility API Response code with valid data
+2024-07-03T15:42:49,282 [main] INFO  (PartCompatibilityTest.java:98) - 400
+2024-07-03T15:42:49,285 [main] INFO  (PartCompatibilityTest.java:121) - *****************Calling PartCompatibility API with valid data ******************
+2024-07-03T15:42:49,469 [main] INFO  (PartCompatibilityTest.java:123) - Validating PartCompatibility API Response code with valid data
+2024-07-03T15:42:49,469 [main] INFO  (PartCompatibilityTest.java:125) - 400
+2024-07-03T15:42:49,472 [main] INFO  (PartCompatibilityTest.java:177) - *****************Calling PartCompatibility API with valid data ******************
+2024-07-03T15:42:49,682 [main] INFO  (PartCompatibilityTest.java:179) - Validating PartCompatibility API Response code with valid data
+2024-07-03T15:42:49,684 [main] INFO  (PartCompatibilityTest.java:181) - 200
+2024-07-03T15:46:12,207 [main] INFO  (PartCompatibilityTest.java:32) - *****************Calling PartCompatibility API with valid data ******************
+2024-07-03T15:46:14,680 [main] INFO  (PartCompatibilityTest.java:34) - Validating PartCompatibility API Response code with valid data
+2024-07-03T15:46:14,773 [main] INFO  (PartCompatibilityTest.java:36) - 200
+2024-07-03T15:46:14,778 [main] INFO  (PartCompatibilityTest.java:39) - 1473
+2024-07-03T16:49:12,019 [main] INFO  (PartCompatibilityTest.java:32) - *****************Calling PartCompatibility API with valid data ******************
+2024-07-03T16:49:14,546 [main] INFO  (PartCompatibilityTest.java:34) - Validating PartCompatibility API Response code with valid data
+2024-07-03T16:49:14,637 [main] INFO  (PartCompatibilityTest.java:36) - 200
+2024-07-03T16:49:14,642 [main] INFO  (PartCompatibilityTest.java:39) - 1611
+2024-07-03T17:17:49,330 [main] INFO  (PartCompatibilityTest.java:32) - *****************Calling PartCompatibility API with valid data ******************
+2024-07-03T17:17:51,194 [main] INFO  (PartCompatibilityTest.java:34) - Validating PartCompatibility API Response code with valid data
+2024-07-03T17:17:51,283 [main] INFO  (PartCompatibilityTest.java:36) - 200
+2024-07-03T17:17:51,290 [main] INFO  (PartCompatibilityTest.java:39) - 908
+2024-07-03T17:17:57,878 [main] INFO  (CompatibleCar.java:57) - *****************Calling CompatibleCar API with valid data ******************
+2024-07-03T17:17:59,065 [main] INFO  (CompatibleCar.java:61) - *****************Verified CategoryTree API Response ******************
+2024-07-03T17:17:59,072 [main] INFO  (CompatibleCar.java:47) - *****************Calling CompatibleCar API with valid data ******************
+2024-07-03T17:17:59,508 [main] INFO  (CompatibleCar.java:51) - *****************Verified CategoryTree API Response is not null******************
+2024-07-03T17:17:59,516 [main] INFO  (CompatibleCar.java:65) - *****************Calling CompatibleCar API with valid data ******************
+2024-07-03T17:17:59,972 [main] INFO  (CompatibleCar.java:78) - *****************Verified CategoryTree API Response ******************
+2024-07-03T17:17:59,978 [main] INFO  (CompatibleCar.java:36) - *****************Calling CompatibleCar API with valid data ******************
+2024-07-03T17:18:00,286 [main] INFO  (CompatibleCar.java:42) - *****************Verified CategoryTree API Response ******************
+2024-07-03T17:18:00,291 [main] INFO  (CompatibleCar.java:120) - *****************Calling CompatibleCar API with valid data ******************
+2024-07-03T17:18:00,622 [main] INFO  (CompatibleCar.java:20) - *****************Calling CompatibleCar API with valid data ******************
+2024-07-03T17:18:00,942 [main] INFO  (CompatibleCar.java:23) - *****************Verified CategoryTree API Response ******************
+2024-07-03T17:18:00,945 [main] INFO  (CompatibleCar.java:83) - *****************Calling CompatibleCar API with valid data ******************
+2024-07-03T17:18:01,248 [main] INFO  (CompatibleCar.java:87) - *****************Verified CategoryTree API Response is not null******************
+2024-07-03T17:18:01,251 [main] INFO  (CompatibleCar.java:28) - *****************Calling CompatibleCar API with valid data ******************
+2024-07-03T17:18:01,588 [main] INFO  (CompatibleCar.java:31) - *****************Verified CategoryTree API Response ******************
+2024-07-03T17:18:01,594 [main] INFO  (CompatibleCar.java:110) - *****************Calling CompatibleCar API with valid data ******************
+2024-07-03T17:18:01,951 [main] INFO  (CompatibleCar.java:115) - *****************Verified CategoryTree API Response ******************
+2024-07-03T17:18:01,955 [main] INFO  (CompatibleCar.java:92) - *****************Calling CompatibleCar API with valid data ******************
+2024-07-03T17:18:02,340 [main] INFO  (CompatibleCar.java:105) - *****************Verified CategoryTree API Response ******************
+2024-07-03T17:32:20,910 [main] INFO  (PartCompatibilityTest.java:32) - *****************Calling PartCompatibility API with valid data ******************
+2024-07-03T17:32:23,449 [main] INFO  (PartCompatibilityTest.java:34) - Validating PartCompatibility API Response code with valid data
+2024-07-03T17:32:23,544 [main] INFO  (PartCompatibilityTest.java:36) - 200
+2024-07-03T17:32:23,549 [main] INFO  (PartCompatibilityTest.java:39) - 1597
+2024-07-03T17:32:28,918 [main] INFO  (CompatibleCar.java:31) - *****************Calling CompatibleCar API with valid data ******************
+2024-07-03T17:32:29,193 [main] INFO  (CompatibleCar.java:37) - *****************Verified CategoryTree API Response ******************

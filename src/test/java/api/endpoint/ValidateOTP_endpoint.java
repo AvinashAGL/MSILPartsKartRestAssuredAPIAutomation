@@ -16,6 +16,25 @@ public class ValidateOTP_endpoint {
 		
 	}
 	
+	public static Response validateOTP_validMob_validOTP_StatusCode() {
+		
+		 String requestBody = "{\n" +
+               "    \"mobile\": \"9911477739\",\n" +
+               "    \"otp\": \"1234\"\n" +
+               "}";
+		
+		Response response1=
+				given()
+				.header("Content-Type","application/json")
+				.body(requestBody)
+				.when()
+				.post("https://marutigenuineparts.in/api/v2/validateOTP");
+		
+		
+		return response1;
+		
+	}
+	
 	
 	public static Response validateOTP_validMob_validOTP() {
 		
@@ -62,8 +81,10 @@ public class ValidateOTP_endpoint {
 		return decryptResponse;
 		
 	}
+//	____________________________________________________________________________
 	
-	public static Response validateOTP_validMSPIN_validOTP() {
+	
+	public static Response validateOTP_MSPIN_ResponseCode() {
 		
 		 String requestBody = "{\n" +
                  "    \"mspin\": \"979497\",\n" +
@@ -77,10 +98,75 @@ public class ValidateOTP_endpoint {
 				.when()
 				.post("https://marutigenuineparts.in/api/v2/validateOTP");
 		
+		
+		return response1;
+		
+	}
+	
+	public static Response validateOTP_validMSPIN_validOTP() {
+		
+		 String requestBody = "{\n" +
+                "    \"mspin\": \"979497\",\n" +
+                "    \"otp\": \"1234\"\n" +
+                "}";
+		
+		Response response1=
+				given()
+				.header("Content-Type","application/json")
+				.body(requestBody)
+				.when()
+				.post("https://marutigenuineparts.in/api/v2/validateOTP");
+		
 		String responseString=response1.asString();
-        String cleanResponse = (responseString.toString()).replaceAll("\"", "");
-//        System.out.println(cleanResponse);
-        Response decryptResponse=  AES_Decrypt.decrypt(cleanResponse);
+       String cleanResponse = (responseString.toString()).replaceAll("\"", "");
+//       System.out.println(cleanResponse);
+       Response decryptResponse=  AES_Decrypt.decrypt(cleanResponse);
+		
+		return decryptResponse;
+		
+	}
+	
+	public static Response validateOTP_validMSPIN_InvalidOTP() {
+		
+		 String requestBody = "{\n" +
+               "    \"mspin\": \"979497\",\n" +
+               "    \"otp\": \"5534\"\n" +
+               "}";
+		
+		Response response1=
+				given()
+				.header("Content-Type","application/json")
+				.body(requestBody)
+				.when()
+				.post("https://marutigenuineparts.in/api/v2/validateOTP");
+		
+		String responseString=response1.asString();
+      String cleanResponse = (responseString.toString()).replaceAll("\"", "");
+//      System.out.println(cleanResponse);
+      Response decryptResponse=  AES_Decrypt.decrypt(cleanResponse);
+		
+		return decryptResponse;
+		
+	}
+
+	public static Response validateOTP_InvalidMSPIN_validOTP() {
+		
+		 String requestBody = "{\n" +
+              "    \"mspin\": \"975597\",\n" +
+              "    \"otp\": \"1234\"\n" +
+              "}";
+		
+		Response response1=
+				given()
+				.header("Content-Type","application/json")
+				.body(requestBody)
+				.when()
+				.post("https://marutigenuineparts.in/api/v2/validateOTP");
+		
+		String responseString=response1.asString();
+     String cleanResponse = (responseString.toString()).replaceAll("\"", "");
+//     System.out.println(cleanResponse);
+     Response decryptResponse=  AES_Decrypt.decrypt(cleanResponse);
 		
 		return decryptResponse;
 		

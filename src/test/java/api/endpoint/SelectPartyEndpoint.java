@@ -30,6 +30,45 @@ public class SelectPartyEndpoint {
 						.when()
 						.post("https://marutigenuineparts.in/api/v2/selectParty");
 			  
+			  
+			  return response1;
+		}
+		
+		public static Response validateSelectPartyStatusCode2() {
+			  String requestBody = "{\n" +
+		                "    \"mspin\": \"979497\",\n" +
+		                "    \"party_code\": \"WUP010188791\",\n" +
+		                "    \"device_type\": \"Android\"\n" +
+		                "}";
+
+			  Response response1=given()
+					  .header("Content-Type","application/json")
+						.body(requestBody)
+						.when()
+						.post("https://marutigenuineparts.in/api/v2/selectParty");
+			  
+			  String responseString=response1.asString();
+		       String cleanResponse = (responseString.toString()).replaceAll("\"", "");
+			  
+			  Response decryptResponse=AES_Decrypt.decrypt(cleanResponse);
+			  
+			  return decryptResponse;
+		}
+		
+		
+		public static Response validateSelectPartyStatusCode_invalidData() {
+			  String requestBody = "{\n" +
+		                "    \"mspin\": \"979497\",\n" +
+		                "    \"party_code\": \"WUP0101232391\",\n" +
+		                "    \"device_type\": \"Android\"\n" +
+		                "}";
+
+			  Response response1=given()
+					  .header("Content-Type","application/json")
+						.body(requestBody)
+						.when()
+						.post("https://marutigenuineparts.in/api/v2/selectParty");
+			  
 			  String responseString=response1.asString();
 		       String cleanResponse = (responseString.toString()).replaceAll("\"", "");
 			  
